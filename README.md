@@ -8,11 +8,11 @@ Johannesburg Dream Centre Website
 
 Student Information
 
-Student Name: Rinae Manari 
-Student Number: ST10495308 
+Student Name: Rinae Manari
+Student Number: ST10495308
 Course: Diploma in IT Management
-Institution: Rosebank International Braamfontein 
-Module: WEDE5020 
+Institution: Rosebank International Braamfontein
+Module: WEDE5020
 Project: Website Development – Part 1
 
 Project Overview
@@ -55,12 +55,12 @@ The organisation's published information indicates that its work includes comput
 
 Timeline and Milestones
 
-Project Kickoff	[07/08/2026]
+Project Kickoff[07/08/2026]
 Content Research Complete[08/08/2026]
-HTML Structure Complete	[12/08/2026]
-CSS Styling Complete	[Date]
-Testing and Debugging	[Date]
-Final Submission	[Date]
+HTML Structure Complete[12/08/2026]
+CSS Styling Complete[Date]
+Testing and Debugging[Date]
+Final Submission[Date]
 
 Part 1 Details
 
