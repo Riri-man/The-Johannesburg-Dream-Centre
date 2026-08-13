@@ -55,16 +55,13 @@ The organisation's published information indicates that its work includes comput
 
 Timeline and Milestones
 
-Stage| Activity| Duration
-1| Software installation and project setup| 4 days
-2| Research and requirements gathering| 4 days
-3| User-interface design| 6 days
-4| HTML and CSS development| 8 days
-5| JavaScript and website functionality| 5 days
-6| Testing and debugging| 4 days
-7| Documentation and README updates| 2 days
-8| Final review and GitHub submission| 2 days
-Total| | 35 days
+Milestone	Date
+Project Kickoff	[07/08/2026]
+Content Research Complete	[08/08/2026]
+HTML Structure Complete	[12/08/2026]
+CSS Styling Complete	[Date]
+Testing and Debugging	[Date]
+Final Submission	[Date]
 
 Part 1 Details
 
