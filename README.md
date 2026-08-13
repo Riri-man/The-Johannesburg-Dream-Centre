@@ -56,7 +56,7 @@ The organisation's published information indicates that its work includes comput
 Timeline and Milestones
 
 Project Kickoff	[07/08/2026]
-Content Research Complete	[08/08/2026]
+Content Research Complete[08/08/2026]
 HTML Structure Complete	[12/08/2026]
 CSS Styling Complete	[Date]
 Testing and Debugging	[Date]
