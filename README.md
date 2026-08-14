@@ -63,7 +63,9 @@ CSS Styling Complete [Date]<br>
 Testing and Debugging [Date]<br>
 Final Submission [Date]<br>
 
-Sitemap
+<h1>Sitemap</h1>
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/0ad1c7eb-d2d9-411b-ab27-c91cf748005a" />
+
 
 <h1>Changelog</h1>
 
