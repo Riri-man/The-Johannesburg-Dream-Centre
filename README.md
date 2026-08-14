@@ -1,19 +1,20 @@
 # The-Johannesburg-Dream-Centre
 The Johannesburg Dream Centre
-Johannesburg Dream Centre Website
+Johannesburg Dream Centre Websit</h1>
 
-Project Title 
+Project Title<br>
 
-Johannesburg Dream Centre Website
+Johannesburg Dream Centre Website<br>
 
-Student Information
+Student Information<br>
 
-Student Name: Rinae Manari
-Student Number: ST10495308
-Course: Diploma in IT Management
-Institution: Rosebank International Braamfontein
-Module: WEDE5020
-Project: Website Development – Part 1
+Student Name: Rinae Manari<br>
+Student Number: ST10495308<br>
+Course: Diploma in IT Management<br>
+Institution: Rosebank International Braamfontein<br>
+Module: WEDE5020<br>
+
+Project: Website Development – Part 1<br></h1>
 
 Project Overview
 
@@ -23,11 +24,11 @@ The organisation follows a multi-level approach that combines meeting immediate 
 
 The Johannesburg Dream Centre is a Christian organisation, but its services are available to people in need regardless of their religious denomination. Its work is guided by values such as kindness, compassion, empowerment, belonging, integrity and commitment. The organisation aims to help create a Johannesburg where poverty is significantly reduced and people have hope for a brighter future.
 
-Website Goals and Objectives
+Website Goals and Objectives<br></h1>
 
-The main goal of the website is to provide an informative, accessible and user-friendly online platform for the Johannesburg Dream Centre.
+The main goal of the website is to provide an informative, accessible and user-friendly online platform for the Johannesburg Dream Centre.<br>
 
-The objectives of the website are to:
+The objectives of the website are to:<br>
 
 - Introduce visitors to the Johannesburg Dream Centre and its purpose.
 - Explain the organisation's mission, vision and values.
@@ -38,9 +39,9 @@ The objectives of the website are to:
 - Make the organisation's contact information easily accessible.
 - Create a professional online presence that increases awareness of the organisation and its work.
 
-Key Features and Functionality
+Key Features and Functionality<br></h1>
 
-The proposed website will include:
+The proposed website will include:<br>
 
 - Home Page – Introduction to the Johannesburg Dream Centre and its purpose.
 - About Us – Information about the organisation, its history, mission, vision and values.
@@ -51,29 +52,24 @@ The proposed website will include:
 - Responsive Design – The website will be designed to work on computers, tablets and mobile devices.
 - Navigation – A clear navigation menu will allow users to move easily between the different sections of the website.
 
-The organisation's published information indicates that its work includes computer literacy training, CV creation, job-search support, interview preparation, job-readiness programmes, sewing and income-generation skills, school support and community outreach.
+The organisation's published information indicates that its work includes computer literacy training, CV creation, job-search support, interview preparation, job-readiness programmes, sewing and income-generation skills, school support and community outreach.<br>
 
-Timeline and Milestones
+Timeline and Milestones<br></h1>
 
-Project Kickoff [07/08/2026]
+Project Kickoff [07/08/2026]<br>
+Content Research Complete [08/08/2026]<br>
+HTML Structure Complete [12/08/2026]<br>
+CSS Styling Complete [Date]<br>
+Testing and Debugging [Date]<br>
+Final Submission [Date]<br>
 
-Content Research Complete [08/08/2026]
+Part 1 Details<br></h1>
 
-HTML Structure Complete [12/08/2026]
-
-CSS Styling Complete [Date]
-
-Testing and Debugging [Date]
-
-Final Submission [Date]
-
-Part 1 Details
-
-Part 1 focuses on establishing the foundation of the Johannesburg Dream Centre website.
+Part 1 focuses on establishing the foundation of the Johannesburg Dream Centre website.</h1>
 
 The first part includes researching the organisation, identifying the needs of its users, designing the user interface and developing the initial website structure. The website will provide visitors with information about the organisation and its activities while creating an easy way for users to access contact and support information.
 
-Part 2 and Part 3 will be added and documented in future submissions as required.
+Part 2 and Part 3 will be added and documented in future submissions as required.</h1>
 
 Sitemap
 
