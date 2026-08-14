@@ -2,7 +2,7 @@
 The Johannesburg Dream Centre
 Johannesburg Dream Centre Websit
 
-Project Title<br>
+<h1>Project Title<br></h1>
 
 Johannesburg Dream Centre Website<br>
 
