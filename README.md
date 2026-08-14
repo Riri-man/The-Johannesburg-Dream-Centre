@@ -65,8 +65,7 @@ Final Submission [Date]<br>
 
 Sitemap
 
-
-Changelog
+<h1>Changelog</h1>
 
 Version 0.1 – Initial Project Setup
 
