@@ -1,6 +1,6 @@
 # The-Johannesburg-Dream-Centre
 The Johannesburg Dream Centre
-Johannesburg Dream Centre Websit</h1>
+Johannesburg Dream Centre Websit
 
 Project Title<br>
 
@@ -14,7 +14,7 @@ Course: Diploma in IT Management<br>
 Institution: Rosebank International Braamfontein<br>
 Module: WEDE5020<br>
 
-Project: Website Development – Part 1<br></h1>
+<h1>Project: Website Development – Part 1<br></h1>
 
 Project Overview
 
@@ -24,7 +24,7 @@ The organisation follows a multi-level approach that combines meeting immediate 
 
 The Johannesburg Dream Centre is a Christian organisation, but its services are available to people in need regardless of their religious denomination. Its work is guided by values such as kindness, compassion, empowerment, belonging, integrity and commitment. The organisation aims to help create a Johannesburg where poverty is significantly reduced and people have hope for a brighter future.
 
-Website Goals and Objectives<br></h1>
+<h1>Website Goals and Objectives<br></h1>
 
 The main goal of the website is to provide an informative, accessible and user-friendly online platform for the Johannesburg Dream Centre.<br>
 
@@ -39,7 +39,7 @@ The objectives of the website are to:<br>
 - Make the organisation's contact information easily accessible.
 - Create a professional online presence that increases awareness of the organisation and its work.
 
-Key Features and Functionality<br></h1>
+<h1>Key Features and Functionality<br></h1>
 
 The proposed website will include:<br>
 
@@ -54,7 +54,7 @@ The proposed website will include:<br>
 
 The organisation's published information indicates that its work includes computer literacy training, CV creation, job-search support, interview preparation, job-readiness programmes, sewing and income-generation skills, school support and community outreach.<br>
 
-Timeline and Milestones<br></h1>
+<h1>Timeline and Milestones<br></h1>
 
 Project Kickoff [07/08/2026]<br>
 Content Research Complete [08/08/2026]<br>
@@ -62,14 +62,6 @@ HTML Structure Complete [12/08/2026]<br>
 CSS Styling Complete [Date]<br>
 Testing and Debugging [Date]<br>
 Final Submission [Date]<br>
-
-Part 1 Details<br></h1>
-
-Part 1 focuses on establishing the foundation of the Johannesburg Dream Centre website.</h1>
-
-The first part includes researching the organisation, identifying the needs of its users, designing the user interface and developing the initial website structure. The website will provide visitors with information about the organisation and its activities while creating an easy way for users to access contact and support information.
-
-Part 2 and Part 3 will be added and documented in future submissions as required.</h1>
 
 Sitemap
 
@@ -97,11 +89,11 @@ Version 0.3 – Initial Development
 - Added website content.
 - Started implementing responsive design.
 
-Future Updates
+<h1>Future Updates</h1>
 
 Future versions will document additional functionality, improvements, testing, feedback and changes made during Part 2 and Part 3.
 
-References
+<h1>References</h1>
 
 Johannesburg Dream Center. (n.d.). Our story. Available at: "https://johannesburgdreamcenter.org/charity/our-story/" (https://johannesburgdreamcenter.org/charity/our-story/) (Accessed: 13 August 2026).
 
