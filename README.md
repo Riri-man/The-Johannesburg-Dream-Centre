@@ -59,7 +59,7 @@ The organisation's published information indicates that its work includes comput
 Project Kickoff [07/08/2026]<br>
 Content Research Complete [08/08/2026]<br>
 HTML Structure Complete [12/08/2026]<br>
-CSS Styling Complete [Date]<br>
+CSS Styling Complete [17/09/2026]<br>
 Testing and Debugging [Date]<br>
 Final Submission [Date]<br>
 
@@ -104,1177 +104,413 @@ Johannesburg Dream Center. (n.d.). Sponsors. Available at: "https://johannesburg
 
 Johannesburg Dream Center NPC. (n.d.). Johannesburg Dream Center NPC. LinkedIn. Available at: "https://za.linkedin.com/company/johannesburg-dream-center-npc" (https://za.linkedin.com/company/johannesburg-dream-center-npc) (Accessed: 13 August 2026).
 
-You’re right — the previous README still referred to Green Valley Community Centre and did not reflect the latest Johannesburg Dream Centre design. Replace the entire contents of your README.md with the updated version below.
-
 # The Johannesburg Dream Centre Website
 
-## Project Overview
+## Project Overview part 2
 
-This project is a responsive multi-page website developed for The Johannesburg Dream Centre.
 
-The website provides information about the organisation, its products or services, enquiry options, contact details, and the structure of the website through a Site Map.
+The **Johannesburg Dream Centre Website** is a responsive, multi-page community website developed for **The Johannesburg Dream Centre**.
 
-The website was developed in two stages:
+The purpose of the website is to provide community members, volunteers, donors, and potential partners with information about the organisation, its history, programs, services, donation opportunities, and contact details.
 
-- **Part 1:** Basic multi-page website structure and HTML content
-- **Part 2:** CSS styling, responsive design, navigation improvements, JavaScript functionality, and Site Map development
-
-The latest version includes a modern advertising-style design with a responsive navigation system that changes depending on the device and scrolling direction.
+The website uses **HTML5, CSS3, and JavaScript** to create a modern, interactive, and responsive user experience.
 
 ---
 
-## Student Information
+## Main Features
 
-- **Student Name:** [Insert Your Name]
-- **Student Number:** [Insert Your Student Number]
-- **Course:** [Insert Course Name]
-- **Module:** [Insert Module Name]
-- **Assignment:** Part 2 – CSS Styling and Responsive Design
-- **Submission Date:** [Insert Submission Date]
-- **GitHub Repository:** [Insert GitHub Repository Link]
+### Home Page
+
+The home page introduces visitors to The Johannesburg Dream Centre and provides:
+
+* Organisation name and logo
+* Welcome message
+* Hero image
+* Introduction to the centre
+* Calls to action
+* Overview of the organisation's main services
+* Navigation to other pages
+
+### About Us
+
+The About Us page contains:
+
+* Organisation history
+* Mission statement
+* Vision statement
+* Team member information
+* Achievements and community impact
+
+### Programs and Services
+
+The Services page provides information about the programs offered by the centre, including:
+
+* Computer Literacy Classes
+* Adult Education
+* Sports and Recreation
+* Arts and Culture
+* Leadership Development
+* Family Counselling
+* Job Placement Assistance
+* Senior Citizen Programs
+
+The page also includes information about donations and a scarf donation product.
+
+### Enquiry Page
+
+The enquiry page allows visitors to submit information about:
+
+* Program information
+* Volunteering
+* Sponsorship and donations
+* Partnerships
+* Other enquiries
+
+It also includes an option to subscribe to the organisation's newsletter.
+
+### Contact Page
+
+The Contact page provides:
+
+* Physical address
+* Telephone number
+* Email address
+* Opening hours
+* Contact form
+* Embedded Google Maps location
 
 ---
 
-## Organisation
+# Technologies Used
 
-- **Organisation Name:** The Johannesburg Dream Centre
-- **Organisation Type:** Community Organisation
-- **Location:** Johannesburg, South Africa
-- **Website:** [Insert official website if available]
-- **Email:** [Insert verified email address]
-- **Telephone:** [Insert verified telephone number]
+## HTML5
 
-> Organisation information, contact details, statistics, dates, and claims must be verified using reliable sources before submission.
+HTML is used to create the structure and content of the website.
 
----
+The project uses HTML elements including:
 
-## Website Purpose
+* `<header>`
+* `<nav>`
+* `<main>`
+* `<section>`
+* `<footer>`
+* `<form>`
+* `<input>`
+* `<textarea>`
+* `<select>`
+* `<img>`
+* `<div>`
 
-The purpose of this website is to:
+## CSS3
 
-1. Introduce visitors to The Johannesburg Dream Centre.
-2. Provide information about the organisation.
-3. Display available products, programmes, or services.
-4. Allow visitors to submit enquiries.
-5. Provide contact information.
-6. Make the website easy to use on desktop, tablet, and mobile devices.
-7. Use an attractive advertising-style design to engage visitors.
-8. Provide clear and consistent navigation.
-9. Allow visitors to view the complete website structure through the Site Map.
-
----
-
-## Website Pages
-
-The website contains the following pages:
-
-| Page | File | Description |
-|------|------|-------------|
-| Home | `index.html` | Welcome message, organisation introduction, search area, and promotional content |
-| About Us | `about.html` | Information about the organisation, its background, mission, vision, and team |
-| Products | `services.html` | Products, programmes, or services offered by the organisation |
-| Enquiry | `enquiry.html` | Form for users to submit questions or requests |
-| Contact | `contact.html` | Contact information, locations, opening hours, and contact form |
-| Site Map | `sitemap.html` | Overview and links to all major website pages |
-
-The navigation displays the page as **Products**, although the actual HTML file is named:
+The website uses a central stylesheet called:
 
 ```text
-services.html
+Css/style1.css
+```
 
-The Products navigation link is written as:
+The CSS provides:
 
-<a href="services.html">Products</a>
+* Page layout
+* Colours
+* Typography
+* Buttons
+* Cards
+* Forms
+* Navigation styling
+* Hero section
+* Shadows and borders
+* Hover effects
+* Responsive layouts
+* Mobile and tablet support
 
-Folder Structure
-johannesburg-dream-centre/
-│
-├── index.html
-├── about.html
-├── services.html
-├── enquiry.html
-├── contact.html
-├── sitemap.html
-├── README.md
-│
-├── css/
-│   └── styles.css
-│
-├── js/
-│   └── script.js
-│
-└── images/
-    ├── logo.png
-    └── community-centre.jpg
+### CSS Variables
 
-If the logo or image has a different filename, the filename used in the HTML must match the actual filename inside the images folder.
+The stylesheet uses CSS custom properties to maintain a consistent colour scheme:
 
-Technologies Used
-The website was created using:
+```css
+--navy
+--dark-navy
+--teal
+--light-teal
+--orange
+--yellow
+--white
+--light
+--text
+--muted
+--border
+--shadow
+```
 
-HTML5
-CSS3
-JavaScript
-CSS variables
-CSS Flexbox
-CSS Grid
-CSS media queries
-Responsive images
-Sticky positioning
-CSS transitions
-CSS animations and hover effects
-GitHub
-Visual Studio Code
-Live Server
-Part 2 Requirements Completed
-The following Part 2 requirements were addressed:
+This makes the website's colours easier to maintain and update.
 
-Created and linked an external CSS stylesheet.
-Applied consistent styling across all pages.
-Added typography and spacing rules.
-Added advertising-style colours and layouts.
-Added responsive desktop, tablet, and mobile layouts.
-Added CSS Grid and Flexbox.
-Added responsive images.
-Added hover and focus effects.
-Added a responsive navigation menu.
-Added a sticky header.
-Added a compact ghost navigation effect while scrolling down.
-Added a full header when scrolling up.
-Added a Site Map page.
-Added the Site Map link to the navigation on every page.
-Added Site Map access in the footer.
-Added a responsive mobile hamburger menu.
-Added a search area to the website.
-Tested the layout at different screen sizes.
-Design and Visual Styling
-Advertising-Style Design
-The website uses an advertising-style design intended to make the organisation appear modern, professional, and engaging.
+---
 
-The main visual features include:
+# Responsive Design
 
-A dark navy header
-Teal accent colours
-Orange call-to-action buttons
-Yellow Site Map highlight
-Rounded content cards
-Gradient backgrounds
-Large promotional hero section
-Strong visual contrast
-Card shadows
-Hover animations
-Responsive spacing
-Clear call-to-action buttons
-The design is intended to attract attention while keeping the content easy to read.
+The website includes responsive CSS media queries for different screen sizes.
 
-Colour Scheme
-The website uses the following colours:
+### Desktop
 
-Colour
+The main layout uses a maximum content width of approximately `1200px`.
 
-Hex Code
+### Tablet
 
-Purpose
+At screen widths below `900px`, cards and team sections change from three columns to two columns.
 
-Navy
+### Mobile
 
-#0b132b
+At screen widths below `600px`:
 
-Header, headings, and main branding
+* Cards become single-column layouts.
+* Buttons become full width.
+* Font sizes are reduced.
+* Hero section padding is reduced.
+* Forms become more compact.
+* Tables can scroll horizontally.
+* Footer spacing is reduced.
 
-Dark Navy
+This allows the website to adapt to desktop, tablet, and mobile screens.
 
-#070d1f
+---
 
-Footer and darker background areas
+# JavaScript Features
 
-Teal
+JavaScript is used to add interactive functionality to the website.
 
-#00b3b8
+## Hamburger Menu
 
-Borders, accents, and highlights
+The hamburger menu can be opened and closed using:
 
-Light Teal
-
-#d9ffff
-
-Navigation hover state
-
-Orange
-
-#ff7a00
-
-Buttons, highlights, and decorative elements
-
-Yellow
-
-#ffd166
-
-Site Map navigation highlight
-
-White
-
-#ffffff
-
-Content cards and form areas
-
-Light Grey
-
-#f3f7fb
-
-Main page background
-
-Dark Text
-
-#243044
-
-Main body text
-
-Muted Grey
-
-#667085
-
-Secondary text
-
-Light Border
-
-#dce5ed
-
-Card and form borders
-
-The colours are stored as CSS variables in css/styles.css:
-
-:root {
-    --navy: #0b132b;
-    --dark-navy: #070d1f;
-    --teal: #00b3b8;
-    --light-teal: #d9ffff;
-    --orange: #ff7a00;
-    --yellow: #ffd166;
-    --white: #ffffff;
-    --light: #f3f7fb;
-    --text: #243044;
-    --muted: #667085;
-    --border: #dce5ed;
+```javascript
+function toggleMenu() {
+    document.getElementById("siteMapMenu").classList.toggle("show");
 }
+```
 
-Using CSS variables makes the colour scheme easier to maintain and update.
+The `.show` CSS class controls whether the sitemap dropdown is visible.
 
-External CSS Stylesheet
-All HTML pages use the same external stylesheet:
+## Search
 
-<link rel="stylesheet" href="css/styles.css">
+The search function checks whether the user entered the name of one of the website's pages.
 
-This code appears inside the <head> section of every HTML file.
+Supported searches include:
 
-The external stylesheet controls:
-
-Page background
-Header
-Navigation
-Logo
-Headings
-Paragraphs
-Buttons
-Product cards
-Service cards
-Forms
-Contact cards
-Site Map
-Footer
-Responsive layouts
-Mobile navigation
-Ghost navigation
-Using one stylesheet ensures that all pages have a consistent appearance.
-
-Website Header and Navigation
-The website header contains:
-
-The organisation name
-The organisation logo
-Main navigation links
-Site Map link
-Mobile menu button
-The navigation links are:
-
-<nav id="main-nav">
-    <ul>
-        <li>
-            <a href="index.html">Home</a>
-        </li>
-
-        <li>
-            <a href="about.html">About Us</a>
-        </li>
-
-        <li>
-            <a href="services.html">Products</a>
-        </li>
-
-        <li>
-            <a href="enquiry.html">Enquiry</a>
-        </li>
-
-        <li>
-            <a href="contact.html">Contact</a>
-        </li>
-
-        <li>
-            <a href="sitemap.html" class="site-map-link">
-                Site Map
-            </a>
-        </li>
-    </ul>
-</nav>
-
-The links work as follows:
-
-Home → index.html
-About Us → about.html
-Products → services.html
-Enquiry → enquiry.html
-Contact → contact.html
-Site Map → sitemap.html
-
-Header HTML Structure
-The header uses the following structure:
-
-<header id="site-header">
-
-    <div class="brand-bar">
-        <h1>The Johannesburg Dream Centre</h1>
-
-        <img
-            class="brand-logo"
-            src="images/logo.png"
-            alt="Johannesburg Dream Centre logo">
-    </div>
-
-    <div class="nav-bar">
-
-        <button
-            id="menu-toggle"
-            class="menu-toggle"
-            type="button"
-            aria-controls="main-nav"
-            aria-expanded="false">
-            <span class="menu-icon">☰</span>
-            <span class="menu-text">Menu</span>
-        </button>
-
-        <nav id="main-nav">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="services.html">Products</a></li>
-                <li><a href="enquiry.html">Enquiry</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li>
-                    <a href="sitemap.html" class="site-map-link">
-                        Site Map
-                    </a>
-                </li>
-            </ul>
-        </nav>
-
-    </div>
-
-</header>
-
-The id attributes allow JavaScript to control the menu and header.
-
-Sticky Header
-The header uses CSS sticky positioning:
-
-#site-header {
-    position: sticky;
-    top: 0;
-    z-index: 2000;
-}
-
-This ensures that the header remains available near the top of the screen while the user scrolls through the page.
-
-The following properties are used:
-
-position: sticky keeps the header visible.
-top: 0 positions the header at the top.
-z-index: 2000 places the header above the page content.
-box-shadow creates visual separation from the content.
-transition creates smooth changes between header states.
-Ghost Navigation Effect
-The website includes a compact ghost navigation effect.
-
-When scrolling down
-When the user scrolls down:
-
-The organisation name is hidden.
-The logo is hidden.
-The header becomes smaller.
-The navigation remains visible.
-The background becomes partially transparent.
-The Site Map link remains accessible.
-The navigation takes up less space.
-When scrolling up
-When the user scrolls up:
-
-The full header returns.
-The organisation name becomes visible.
-The logo becomes visible.
-The navigation returns to its full size.
-The dark background becomes more solid.
-The ghost navigation is controlled using the following class:
-
-#site-header.ghost-navigation {
-    background: rgba(7, 13, 31, 0.45);
-    border-bottom: 1px solid rgba(0, 179, 184, 0.5);
-    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.12);
-    backdrop-filter: blur(9px);
-}
-
-The large branding area is reduced using:
-
-#site-header.ghost-navigation .brand-bar {
-    max-height: 0;
-    padding-top: 0;
-    padding-bottom: 0;
-    opacity: 0;
-    transform: translateY(-20px);
-}
-
-The compact navigation uses:
-
-#site-header.ghost-navigation .nav-bar {
-    min-height: 38px;
-    padding: 3px 15px;
-}
-
-The links become smaller using:
-
-#site-header.ghost-navigation #main-nav a {
-    padding: 5px 10px;
-    font-size: 0.78rem;
-}
-
-Mobile Navigation
-On mobile devices, the full horizontal navigation is replaced by a hamburger menu.
-
-The menu is hidden by default:
-
-#site-header #main-nav {
-    display: none;
-}
-
-It opens when the is-open class is added:
-
-#site-header #main-nav.is-open {
-    display: block;
-}
-
-The menu button is shown on smaller screens:
-
-#site-header .menu-toggle {
-    display: inline-flex;
-}
-
-The mobile menu contains:
-
+```text
 Home
+About
 About Us
-Products
-Enquiry
-Contact
-Site Map
-The Site Map link is highlighted with a yellow background:
-
-#site-header #main-nav a.site-map-link {
-    color: #0b132b;
-    background: #ffd166;
-}
-
-The mobile menu closes when:
-
-The user selects a link.
-The user clicks outside the menu.
-The user scrolls down.
-The screen becomes wider than the mobile breakpoint.
-JavaScript Functionality
-The JavaScript file is located at:
-
-js/script.js
-
-It is linked to every HTML page using:
-
-<script src="js/script.js"></script>
-
-The JavaScript controls:
-
-Opening and closing the mobile menu
-Updating the aria-expanded attribute
-Closing the menu after a link is selected
-Closing the menu when the user clicks outside it
-Detecting scrolling direction
-Adding the ghost navigation class
-Removing the ghost navigation class
-Closing the mobile menu while scrolling
-Resetting the menu when the screen becomes wider
-The scroll functionality uses the current and previous scroll positions:
-
-if (currentScrollPosition <= 30) {
-    siteHeader.classList.remove("ghost-navigation");
-}
-else if (
-    currentScrollPosition > previousScrollPosition
-) {
-    siteHeader.classList.add("ghost-navigation");
-}
-else if (
-    currentScrollPosition < previousScrollPosition
-) {
-    siteHeader.classList.remove("ghost-navigation");
-}
-
-When the user scrolls down, the following class is added:
-
-siteHeader.classList.add("ghost-navigation");
-
-When the user scrolls up, it is removed:
-
-siteHeader.classList.remove("ghost-navigation");
-
-Search Feature
-The Home page includes a search area.
-
-Example search HTML:
-
-<section class="search-section">
-    <form action="#" method="get">
-        <input
-            type="search"
-            name="search"
-            placeholder="Search the website..."
-            aria-label="Search the website">
-
-        <button type="submit">Search</button>
-    </form>
-</section>
-
-The search area is styled using:
-
-A white card
-Rounded corners
-A search input field
-A blue Search button
-Responsive layout
-Orange hover effect
-The current search form is a front-end design feature only. It does not yet connect to a search database or search engine.
-
-Responsive Design
-The website is responsive and adapts to different screen sizes.
-
-The design supports:
-
-Desktop computers
-Laptops
-Tablets
-Mobile phones
-Desktop Layout
-On large screens:
-
-The full organisation title is visible.
-The logo is visible.
-Navigation links are arranged horizontally.
-Product cards are shown in multiple columns.
-Forms use a wider layout.
-Contact cards can appear next to each other.
-Tablet Layout
-On medium-sized screens:
-
-Cards change to two columns.
-Navigation may wrap if there is insufficient space.
-Images resize to fit the screen.
-Padding and font sizes are reduced slightly.
-Mobile Layout
-On mobile screens:
-
-The hamburger button replaces the horizontal menu.
-Navigation links are hidden until the menu is opened.
-Cards are displayed in one column.
-Buttons stretch across the available width.
-Forms fit the screen width.
-Tables can scroll horizontally.
-The ghost header becomes smaller.
-The Site Map remains available inside the mobile menu.
-Responsive Breakpoints
-The website uses the following CSS media queries:
-
-@media screen and (max-width: 768px)
-
-This breakpoint changes the navigation into a mobile hamburger menu.
-
-@media screen and (max-width: 480px)
-
-This breakpoint provides additional adjustments for smaller mobile phones.
-
-Responsive Images
-Images use responsive CSS:
-
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
-
-This ensures that images:
-
-Do not overflow their containers.
-Resize on smaller screens.
-Maintain their proportions.
-Remain usable on mobile devices.
-The logo is displayed using:
-
-<img
-    class="brand-logo"
-    src="images/logo.png"
-    alt="Johannesburg Dream Centre logo">
-
-The Home page image is displayed using:
-
-<img
-    class="hero-image"
-    src="images/community-centre.jpg"
-    alt="Community members taking part in an activity">
-
-The alternative text helps users who use screen readers.
-
-Site Map
-A separate Site Map page was added to show the structure of the website.
-
-The Site Map file is:
-
-sitemap.html
-
-The Site Map includes links to:
-
-Home
-About Us
-Products
-Enquiry
-Contact
-Site Map
-The Site Map appears in:
-
-The desktop navigation.
-The mobile navigation menu.
-The footer.
-The separate sitemap.html page.
-The navigation code is:
-
-<a href="sitemap.html" class="site-map-link">
-    Site Map
-</a>
-
-The footer link is:
-
-<a href="sitemap.html">View Site Map</a>
-
-The Site Map has been highlighted in yellow so that users can identify it easily.
-
-Home Page
-The Home page is contained in:
-
-index.html
-
-The Home page includes:
-
-Organisation title
-Organisation logo
-Search area
-Promotional hero section
-Welcome message
-Introduction to The Johannesburg Dream Centre
-Call-to-action buttons
-Links to Products and Enquiry
-Responsive content
-Advertising-style visual design
-Example call-to-action buttons:
-
-<a href="services.html" class="btn">
-    View Our Products
-</a>
-
-<a href="enquiry.html" class="btn-secondary">
-    Make an Enquiry
-</a>
-
-About Us Page
-The About Us page is contained in:
-
-about.html
-
-The page may include:
-
-Organisation background
-History
-Mission statement
-Vision statement
-Team information
-Achievements
-Community involvement
-Responsive information cards
-All content should be based on verified information about the organisation.
-
-Products Page
-The Products page is contained in:
-
-services.html
-
-The page is displayed as Products in the navigation.
-
-The Products page may include:
-
-Product categories
-Programmes
-Community services
-Product descriptions
-Service information
-Availability details
-Product cards
-Links to the Enquiry page
-The Products page uses:
-
-Teal borders
-Orange accents
-Rounded cards
-Hover effects
-Responsive columns
-Advertising-style presentation
-Enquiry Page
-The Enquiry page is contained in:
-
-enquiry.html
-
-The Enquiry page includes a form for visitors to submit questions or requests.
-
-Possible form fields include:
-
-<input
-    type="text"
-    id="name"
-    name="name"
-    required>
-
-<input
-    type="email"
-    id="email"
-    name="email"
-    required>
-
-<input
-    type="tel"
-    id="phone"
-    name="phone">
-
-<textarea
-    id="message"
-    name="message"
-    rows="6"
-    required>
-</textarea>
-
-The form is currently a front-end form. It does not yet send data to a database or email server.
-
-Contact Page
-The Contact page is contained in:
-
-contact.html
-
-The Contact page may include:
-
-Organisation address
-Telephone number
-Email address
-Opening hours
-Contact locations
-Contact form
-Link to the Site Map
-All contact information must be verified before the final submission.
-
-Footer
-The footer appears on every page.
-
-Example footer:
-
-<footer>
-    <p>
-        &copy; 2026 The Johannesburg Dream Centre.
-        All rights reserved.
-    </p>
-
-    <p>
-        <a href="sitemap.html">View Site Map</a>
-    </p>
-</footer>
-
-The footer uses:
-
-Dark navy background
-Orange top border
-Yellow Site Map link
-White text
-Centre-aligned content
-Accessibility Features
-The website includes the following accessibility improvements:
-
-Semantic HTML elements
-Descriptive image alternative text
-Labels for form controls
-Required form fields
-Keyboard focus states
-Colour contrast between text and backgrounds
-Clear navigation labels
-Responsive layouts
-Readable font sizes
-Visible hover states
-Visible focus states
-aria-controls on the mobile menu button
-aria-expanded to describe the menu state
-The mobile menu button includes:
-
-aria-controls="main-nav"
-aria-expanded="false"
-
-When the menu is open, JavaScript changes the value to:
-
-aria-expanded="true"
-
-This helps assistive technology understand whether the menu is open or closed.
-
-Testing
-The website must be tested at different screen sizes and on every page.
-
-Desktop Testing
-Suggested desktop width:
-
-1366px
-
-Check:
-
-Header layout
-Logo size
-Navigation links
-Hero section
-Product cards
-Forms
-Contact cards
-Site Map
-Footer
-Hover effects
-Scroll behaviour
-Tablet Testing
-Suggested tablet width:
-
-768px
-
-Check:
-
-Navigation wrapping
-Card layout
-Image resizing
-Form layout
-Text readability
-Header size
-Ghost navigation
-Mobile Testing
-Suggested mobile width:
-
-375px
-
-Check:
-
-Organisation title
-Logo size
-Hamburger button
-Mobile menu
-Site Map link
-Product cards
-Form layout
-Button width
-Search bar
-Image resizing
-Ghost navigation
-Footer layout
-Testing Checklist
-Navigation
-[ ] Home link opens index.html.
-[ ] About Us link opens about.html.
-[ ] Products link opens services.html.
-[ ] Enquiry link opens enquiry.html.
-[ ] Contact link opens contact.html.
-[ ] Site Map link opens sitemap.html.
-[ ] Footer Site Map link works.
-[ ] Navigation appears on every page.
-[ ] Mobile menu is closed when the page first loads.
-[ ] Mobile menu opens when the button is clicked.
-[ ] Mobile menu closes when a link is selected.
-[ ] Mobile menu closes when the user clicks outside it.
-Ghost Navigation
-[ ] Full header is visible at the top of the page.
-[ ] Header becomes compact when scrolling down.
-[ ] Organisation title disappears in ghost mode.
-[ ] Logo disappears in ghost mode.
-[ ] Navigation links remain visible.
-[ ] Site Map remains accessible in ghost mode.
-[ ] Full header returns when scrolling up.
-[ ] Header does not cover important content.
-[ ] Header works on desktop.
-[ ] Header works on mobile.
-Content
-[ ] All pages contain the correct organisation name.
-[ ] All images load correctly.
-[ ] All images have alternative text.
-[ ] All text is readable.
-[ ] All headings are properly structured.
-[ ] No placeholder information remains.
-[ ] Contact information is verified.
-Forms
-[ ] Form labels are visible.
-[ ] Required fields are marked.
-[ ] Form fields fit on mobile screens.
-[ ] Textareas are usable.
-[ ] Buttons are visible.
-[ ] Form layout is consistent with the website design.
-Known Limitations
-The current version has the following limitations:
-
-Enquiry forms are not connected to a database.
-Contact forms do not currently send emails.
-The search box is a visual front-end feature only.
-There is no user account system.
-There is no online payment system.
-There is no backend validation.
-There is no database connection.
-Some organisation information may need to be verified.
-The Site Map is manually maintained.
-The website currently uses a simple JavaScript menu instead of a full navigation framework.
-These limitations can be addressed in a future development stage.
-
-Future Improvements
-Possible future improvements include:
-
-Connect enquiry forms to a backend.
-Send form submissions to an email address.
-Add server-side form validation.
-Add a working website search system.
-Add an interactive map.
-Add social media links.
-Add event registration.
-Add an online booking system.
-Add an image gallery.
-Add testimonials.
-Add a news or blog section.
-Add product filtering.
-Add a database.
-Add user accounts.
-Add improved form security.
-Add a mobile menu animation.
-Add analytics to monitor visitor activity.
-Add additional accessibility testing.
-Changes From Part 1 to Part 2
-Part 1
-The first version of the website included:
-
-Multiple HTML pages
-Basic navigation
-Basic page content
-Home page
-About Us page
-Products or Services page
-Enquiry page
-Contact page
-Basic CSS
-Part 2
-The website was improved by adding:
-
-External CSS stylesheet
-Modern advertising-style design
-Dark navy, teal, orange, and yellow colour scheme
-Rounded content cards
-Promotional buttons
-Gradient hero section
-Improved typography
-CSS Flexbox
-CSS Grid
-Media queries
-Responsive images
-Hover effects
-Focus effects
-Responsive forms
-Sticky navigation
-Compact ghost navigation
-Mobile hamburger menu
-Site Map page
-Site Map link in the main navigation
-Site Map link in the footer
-Search interface
-Responsive desktop layout
-Responsive tablet layout
-Responsive mobile layout
-JavaScript scroll detection
-JavaScript mobile menu functionality
-Installation and Setup
-Requirements
-To run this project, you need:
-
-A modern web browser
-Visual Studio Code or another code editor
-The project files
-Optional: Live Server extension for Visual Studio Code
-Running the Website
-Download or clone the repository.
-Open the project folder in Visual Studio Code.
-Check that all files and folders are present.
-Open index.html.
-Right-click inside the file.
-Select Open with Live Server.
-Open the website in a browser.
-Test every page and navigation link.
-If Live Server is not installed, open the website by double-clicking:
-
-index.html
-
-GitHub Version Control
-GitHub is used to store and submit the website project.
-
-Example Git commands:
-
-git add .
-
-git commit -m "Update responsive advertising design and navigation"
-
-git push origin main
-
-The GitHub repository should contain:
-
-All HTML files
-README.md
-css/styles.css
-js/script.js
-Images
-Site Map page
-GitHub Submission Link
-Insert your repository link below:
-
-[Insert GitHub Repository Link]
-
-Example:
-
-https://github.com/your-username/johannesburg-dream-centre
-
-References
-Only include sources that were actually used.
-
-HTML
-MDN Web Docs. HTML: HyperText Markup Language.
-https://developer.mozilla.org/en-US/docs/Web/HTML
-CSS
-MDN Web Docs. CSS: Cascading Style Sheets.
-https://developer.mozilla.org/en-US/docs/Web/CSS
-CSS Media Queries
-MDN Web Docs. Using Media Queries.
-https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries
-CSS Flexbox
-MDN Web Docs. CSS Flexible Box Layout.
-https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout
-CSS Grid
-MDN Web Docs. CSS Grid Layout.
-https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout
-CSS Positioning
-MDN Web Docs. CSS Position.
-https://developer.mozilla.org/en-US/docs/Web/CSS/position
-JavaScript
-MDN Web Docs. JavaScript.
-https://developer.mozilla.org/en-US/docs/Web/JavaScript
-JavaScript Scroll Events
-MDN Web Docs. Element: scroll event.
-https://developer.mozilla.org/en-US/docs/Web/API/Element/scroll_event
-Accessibility
-W3C Web Accessibility Initiative. Web Content Accessibility Guidelines.
-https://www.w3.org/WAI/standards-guidelines/wcag/
-Organisation Sources
-Replace the entries below with the actual sources used:
-
-[Official Johannesburg Dream Centre website]
-[Official Johannesburg Dream Centre social media page]
-[Organisation brochure or annual report]
-[Interview or communication with an organisation representative]
-[Other reliable source]
-Source Verification Statement
-All organisation-specific information should be verified before final submission.
-
-This includes:
-
-Organisation name
-Address
-Telephone number
-Email address
-Opening hours
-Programmes
 Products
 Services
-Dates
-Statistics
-Achievements
-Mission and vision statements
-Any information that cannot be verified should be removed or replaced with accurate information.
+Enquiry
+Contact
+```
 
-Technical information in this project is based on standard HTML, CSS, JavaScript, responsive design, and accessibility practices.
+If a matching page is found, JavaScript redirects the user to that page.
 
-Project Status
-Part 1: Completed
-Part 2: CSS styling completed
-Advertising-style design: Added
-Responsive layout: Added
-Responsive navigation: Added
-Mobile hamburger menu: Added
-Sticky header: Added
-Ghost navigation effect: Added
-Site Map page: Added
-Site Map navigation link: Added
-Search interface: Added
-Responsive testing: To be completed and documented
-Backend forms: Not yet implemented
+If no matching page is found, the website displays an alert.
 
-Version Information
-Version: 2.0
-Project Stage: Part 2
-Website: The Johannesburg Dream Centre
-Last Updated: [Insert Date]
-Author: [Insert Your Name]
+## Back to Top
 
-## Update these placeholders before submitting
+The website includes a **Back to Top** button.
 
-Replace all of the following:
+The button appears when the user scrolls more than 200 pixels down the page.
+
+JavaScript then uses smooth scrolling to return the user to the top.
+
+---
+
+# Design
+
+The website uses a modern community-focused visual design.
+
+### Colour Scheme
+
+The primary colours include:
+
+| Colour          | Purpose                                   |
+| --------------- | ----------------------------------------- |
+| Navy            | Header, headings and primary elements     |
+| Teal            | Borders, accents and interactive elements |
+| Orange          | Buttons and highlights                    |
+| Yellow          | Secondary highlights                      |
+| White           | Cards and content areas                   |
+| Light blue/grey | Page background                           |
+
+### Visual Effects
+
+The stylesheet includes:
+
+* Drop shadows
+* Rounded corners
+* Gradient backgrounds
+* Hover animations
+* Smooth transitions
+* Decorative circles
+* Coloured borders
+* Sticky navigation
+
+These features are intended to create a clean and modern appearance.
+
+---
+
+# Project Structure
 
 ```text
-[Insert Your Name]
-[Insert Your Student Number]
-[Insert Course Name]
-[Insert Module Name]
-[Insert Submission Date]
-[Insert GitHub Repository Link]
-[Insert official website if available]
-[Insert verified email address]
-[Insert verified telephone number]
-[Official Johannesburg Dream Centre website]
-[Official Johannesburg Dream Centre social media page]
+Johannesburg-Dream-Centre/
+│
+├── index.html
+│
+├── Assets/
+│   ├── about us.html
+│   ├── services.html
+│   ├── enquiry.html
+│   └── contact.html
+│
+├── Css/
+│   └── style1.css
+│
+└── Images/
+    ├── Logo.png
+    ├── blurred.jpg
+    ├── Alicia.png
+    ├── oscar.png
+    ├── zakhele.png
+    ├── White-Minimalist-Product-Instagram-Post-1-300x300.png
+    ├── computer Literracy.jpeg
+    ├── Adults.jpeg
+    ├── youth-programs.jpg
+    ├── Arts and Culture.jpg
+    ├── leadership Development.jpg
+    ├── Community Support Services.jpg
+    ├── Job placement assistance.jpg
+    └── Senior Citizen Programs.jpg
+```
 
-Also make sure the README does not contain any unverified:
+---
 
-Contact details
-Addresses
-Statistics
-Dates
-Achievements
-Programmes
-Claims about the organisation
-This updated README now matches your current website name, logo, navigation, mobile hamburger menu, search bar, Site Map, responsive layout, and compact ghost header.
+# Website Pages
+
+| Page            | Description                      |
+| --------------- | -------------------------------- |
+| `index.html`    | Home page                        |
+| `about us.html` | Organisation information         |
+| `services.html` | Programs, services and donations |
+| `enquiry.html`  | Enquiry and involvement form     |
+| `contact.html`  | Contact details and map          |
+
+---
+
+# How to Run the Project
+
+Because the project is currently a static website, no database or backend server is required to view the pages.
+
+### Steps
+
+1. Download or clone the project.
+2. Keep the existing folder structure.
+3. Make sure the `Css` folder contains `style1.css`.
+4. Make sure the `Images` folder contains all required images.
+5. Open `index.html` in a web browser.
+6. Use the navigation menu to browse the website.
+
+For development, the project can also be opened using a code editor such as Visual Studio Code.
+
+---
+
+# Contact Information
+
+The website currently displays the following contact information:
+
+**The Johannesburg Dream Centre**
+
+**Email:** [info@Johannesburgdreamcenter.org](mailto:info@Johannesburgdreamcenter.org)
+**Phone:** +27 81 402 8576
+
+**Address:**
+1st Floor Northlands Corner
+New Market Road
+Hoogland
+Gauteng
+
+**Opening Hours:**
+
+* Monday – Friday: 9:00 AM – 3:00 PM
+* Saturday: 8:00 AM – 2:00 PM
+* Sunday: Closed
+
+---
+
+### Form Functionality
+
+The contact and enquiry forms currently do not have a backend. Therefore, submitted information is not actually stored or sent to the organisation.
+
+### Search
+
+The search feature searches for **page names**, rather than searching the actual content of the website.
+
+### JavaScript
+
+Some JavaScript functions are repeated across multiple HTML pages.
+
+For example, `toggleMenu()` appears more than once.
+
+A better approach would be to create a separate JavaScript file:
+
+```text
+Js/script.js
+```
+
+and place the shared functionality there.
+
+### File Paths
+
+Some links use different relative paths depending on the page. These should be standardised to prevent broken links.
+
+### Donation System
+
+The donation functionality is currently primarily informational. A proper payment or donation system would need to be connected before real transactions could be processed.
+
+### Shopping Cart
+
+The **Add to Cart** button references an `addToCart()` function, but that function is not included in the supplied JavaScript. A shopping-cart system would therefore need to be implemented.
+
+---
+
+# Possible Future Improvements
+
+Future versions of the website could include:
+
+* Functional online donations
+* Shopping cart functionality
+* Database integration
+* Working contact and enquiry forms
+* Email notifications
+* Improved search functionality
+* Dedicated JavaScript file
+* Dedicated reusable navigation/footer components
+* Improved accessibility
+* Form validation
+* Success/error messages after submitting forms
+* Social media integration
+* Gallery of community activities
+* News and events section
+* Volunteer registration
+* Improved mobile navigation
+* Website analytics
+* SEO improvements
+
+---
+
+# Conclusion
+
+The Johannesburg Dream Centre website is a **responsive community information platform** built with HTML, CSS and JavaScript.
+
+Its main goal is to connect community members with the centre's educational programs, youth activities, community support services, donation opportunities and contact channels.
+
+The project already contains a strong visual foundation, responsive layouts, navigation, forms and interactive JavaScript features. Further development would focus primarily on improving code structure, fixing existing HTML issues, and adding backend functionality for forms, donations and shopping-cart features.
+
+## Copyright
+
+© 2026 The Johannesburg Dream Centre. All rights reserved.
