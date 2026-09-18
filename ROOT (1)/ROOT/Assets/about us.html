@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About us - The Johannesburg Dream Centre</title>
+    <link rel="stylesheet" href="../Css/style1.css">
+</head>
+<body>
+    <header>
+        <h1>The Johannesburg Dream Centre</h1>
+        <img src="../Images/Logo.png" alt="Logo" width="500">
+        
+        <nav>
+            <ul>
+                <a href="../index.html">Home</a> |
+                <a href="#">About Us</a> |
+                <a href="services.html">Products</a> |
+                <a href="enquiry.html">Enquiry</a> |
+                <a href="contact.html">Contact</a> |
+         <!-- Search Bar -->
+        <form class="search-form" action="#" method="get">
+            <input 
+                type="search" 
+                name="search" 
+                placeholder="Search..." 
+                aria-label="Search">
+            <button type="submit">Search</button>
+        </form>
+    </ul>
+</nav>
+    </header>
+<!-- Hamburger Menu -->
+<div class="hamburger-menu">
+    <button class="hamburger-button" onclick="toggleMenu()">☰</button>
+
+    <div id="siteMapMenu" class="site-map-dropdown">
+        <a href="../index.html">Home</a>
+        <a href="#">About Us</a>
+        <a href="services.html">Products</a>
+        <a href="enquiry.html">Enquiry</a>
+        <a href="contact.html">Contact</a>
+    </div>
+</div>
+    <main>
+        <div>
+            <h2>The Johannesburg Dream Centre</h2>
+            <p>Established in 2014, The Johannesburg Dream Centre has been a cornerstone of our local community,<br> providing essentail programs and services that make a real difference in people's lives.</p>
+        </div>
+
+        <div>
+            <h3>Our History</h3>
+            <p>What started as a small program of helping people to uplift poverty has grown into a comprehensive community hub serving over 500 families annually.<br>Through the dedication of our staff, volunteers, and community partners, we have expanded our offerings to meet the diverse need of our community.</p>
+        </div>
+
+        <div>
+            <h3>Mission Statement</h3>
+            <p>Alleviating poverty by means of a multi-level approch aimed at working to meet immediate needs,<br>empowering people living in poverty and inspiring them to work towards a better quality of life.</p>
+        </div>
+
+        <div>
+            <h3>Vision Statement</h3>
+            <p>To change the atmosphere of Johannesburg to one in which poverty is drastically reduced and there is hope for a brighter future.</p>
+        </div>
+
+        <div>
+            <h3>Our Team</h3>
+            <div class="team">
+                <div class="team-member">
+                    <img src="../Images/Alicia.png" Alicia>
+                    <h4>Alicia Swanepoel</h4>
+                    <p><strong>Managing Director and Co-Founder</strong></p>
+                    <p>Alicia has over 15 years of experience in community development and leads our strategic initiatives.</p>
+                </div>
+                <div class="team-member">
+                    <img src="../Images/oscar.png" oscar>
+                    <h4>Oscar Bashing</h4>
+                    <p><strong>Director</strong></p>
+                    <p>Oscar oversees all educational and recreational programs, ensuring quality and impact.</p>
+                </div>
+                <div class="team-member">
+                    <img src="../Images/zakhele.png" zakhele>
+                    <h4>Zakhele Nyandeni</h4>
+                    <p><strong>Youth Development Director</strong></p>
+                    <p>Zakhele specializes in youth empowerment and mentorship programs.</p>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <h3>Our Achievements</h3>
+            <ul>
+                <li>Served over 2,500 community members since inception</li>
+                <il>75% program satisfaction rate</il>
+                <il>Partnered with 20+ local organizations</il>
+                <il>Awarded BEE Level 1 status</il>
+            </ul>
+        </div>
+    </main>
+    <hr>
+      <footer>
+        <p>&copy; 2026 The Johannesburg Dream Centre. All rights reserved.</p>
+        <p>Contact: info@Johannesburgdreamcenter.org | +27 81 402 8576</p>
+    </footer>
+        <script>
+function toggleMenu() {
+    document.getElementById("siteMapMenu").classList.toggle("show");
+}
+</script>
+<script>
+document.getElementById("searchForm").addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    const searchTerm = document.getElementById("searchInput").value.toLowerCase().trim();
+
+    if (searchTerm === "") {
+        return;
+    }
+
+    // Pages that can be searched
+    const pages = {
+        "home": "index.html",
+        "about": "#",
+        "about us": "Assets/about us.html",
+        "products": "Assets/services.html",
+        "services": "Assets/services.html",
+        "enquiry": "Assets/enquiry.html",
+        "contact": "Assets/contact.html"
+    };
+
+    // Check if search term matches a page name
+    if (pages[searchTerm]) {
+        window.location.href = pages[searchTerm];
+    } else {
+        alert("No page found for: " + searchTerm);
+    }
+});
+</script>
+<script>
+function toggleMenu() {
+    document.getElementById("siteMapMenu").classList.toggle("show");
+}
+
+// Show Back to Top button after scrolling
+window.onscroll = function() {
+    const button = document.getElementById("backToTop");
+
+    if (document.documentElement.scrollTop > 200) {
+        button.style.display = "block";
+    } else {
+        button.style.display = "none";
+    }
+};
+
+// Smoothly scroll to the top
+function scrollToTop() {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+}
+</script>
+<button id="backToTop" onclick="scrollToTop()">↑ Back to Top</button>
+</body>
+</html>

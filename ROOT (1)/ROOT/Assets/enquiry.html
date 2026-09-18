@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Enquiry - The Johannesburg Dream Centre</title>
+    <link rel="stylesheet" href="../Css/style1.css">
+</head>
+<body>
+    <header>
+        <h1>The Johannesburg Dream Centre</h1>
+            <img src="../Images/Logo.png" alt="Logo" width="500">
+
+        <nav>
+            <ul>
+                <a href="../index.html">Home</a> |
+                <a href="about us.html">About Us</a> |
+                <a href="services.html">Products</a> |
+                <a href="#">Enquiry</a> |
+                <a href="contact.html">Contact</a> |
+            <!-- Search Bar -->
+        <form class="search-form" action="#" method="get">
+            <input 
+                type="search" 
+                name="search" 
+                placeholder="Search..." 
+                aria-label="Search">
+            <button type="submit">Search</button>
+        </form>
+    </ul>
+</nav>
+    </header>
+<!-- Hamburger Menu -->
+<div class="hamburger-menu">
+    <button class="hamburger-button" onclick="toggleMenu()">☰</button>
+
+    <div id="siteMapMenu" class="site-map-dropdown">
+        <a href="../index.html">Home</a>
+        <a href="about us.html">About Us</a>
+        <a href="services.html">Products</a>
+        <a href="#">Enquiry</a>
+        <a href="contact.html">Contact</a>
+    </div>
+</div>
+    <main>
+        <div>
+            <h2>Make an Enquiry</h2>
+            <p>Interested in our programs or want to get involved? fill out the form below and we'll get back to you within 48 hours.</p>
+        </div>
+
+        <div class="from-setion">
+            <from action="#" method="post">
+                <div class="from-group">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="email" required>
+                </div>
+
+                <div class="from-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="from-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+
+                <div class="from-group">
+                    <label for="enquiry-type">Enquiry Type:</label>
+                    <select id="enquiry-type" name="enquiry-type" required>
+                        <option value="">select an option</option>
+                        <option value="program">Program Information</option>
+                        <option value="volunteer">Volunteer Opportunities</option>
+                        <option value="sponsor">Sponsorship/Donations</option>
+                        <option value="partnership">Partnership Opportunities</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="from-group">
+                    <label for="message">Your message:</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                </div>
+
+                <div class="from-group">
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                    <label for="newsletter">Subscribe to our monthly newsletter</label>
+                </div>
+
+                <button type="submit" class="btn">Submit Enquiry</button>
+            </from>
+        </div>
+
+        <div>
+            <h2>Other Ways to Get Involved</h2>
+            <div class="involvement-options">
+                <div class="option">
+                <h3>Volunteer</h3>
+                <p> Join our team of dedicated volunteers and make a direct impact in your community.</p>
+            </div>
+            <div class="option">
+                <h3>Donate</h3>
+                <p>Your financial support helps us continue providing free programs to those who need them most.</p>
+            </div>
+            <div class="option">
+                <h3>Partner With Us</h3>
+                <p>We welcome partnerships with businesses, schools, and organizations that share our vision.</p>
+            </div>
+            </div>
+        </div>
+    </main>
+    <hr>
+      <footer>
+        <p>&copy; 2026 The Johannesburg Dream Centre. All rights reserved.</p>
+        <p>Contact: info@Johannesburgdreamcenter.org | +27 81 402 8576</p>
+    </footer>
+        <script>
+function toggleMenu() {
+    document.getElementById("siteMapMenu").classList.toggle("show");
+}
+</script>
+<script>
+document.getElementById("searchForm").addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    const searchTerm = document.getElementById("searchInput").value.toLowerCase().trim();
+
+    if (searchTerm === "") {
+        return;
+    }
+
+    // Pages that can be searched
+    const pages = {
+        "home": "index.html",
+        "about": "Assets/about us.html",
+        "about us": "Assets/about us.html",
+        "products": "Assets/services.html",
+        "services": "Assets/services.html",
+        "enquiry": "Assets/enquiry.html",
+        "contact": "Assets/contact.html"
+    };
+
+    // Check if search term matches a page name
+    if (pages[searchTerm]) {
+        window.location.href = pages[searchTerm];
+    } else {
+        alert("No page found for: " + searchTerm);
+    }
+});
+</script>
+<script>
+function toggleMenu() {
+    document.getElementById("siteMapMenu").classList.toggle("show");
+}
+
+// Show Back to Top button after scrolling
+window.onscroll = function() {
+    const button = document.getElementById("backToTop");
+
+    if (document.documentElement.scrollTop > 200) {
+        button.style.display = "block";
+    } else {
+        button.style.display = "none";
+    }
+};
+
+// Smoothly scroll to the top
+function scrollToTop() {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+}
+</script>
+<button id="backToTop" onclick="scrollToTop()">↑ Back to Top</button>
+</body>
+</html>
