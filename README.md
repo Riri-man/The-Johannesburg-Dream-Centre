@@ -14,7 +14,7 @@ Course: Diploma in IT Management<br>
 Institution: Rosebank International Braamfontein<br>
 Module: WEDE5020<br>
 
-<h1>Project: Website Development – Part 1<br></h1>.
+<h1>Project: Website Development – Part 1<br></h1>
 
 Project Overview
 
