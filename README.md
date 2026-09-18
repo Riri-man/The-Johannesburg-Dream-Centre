@@ -12,7 +12,7 @@ Student Name: Rinae Manari<br>
 Student Number: ST10495308<br>
 Course: Diploma in IT Management<br>
 Institution: Rosebank International Braamfontein<br>
-Module: WEDE5020<br>.
+Module: WEDE5020<br>
 
 <h1>Project: Website Development – Part 1<br></h1>
 
