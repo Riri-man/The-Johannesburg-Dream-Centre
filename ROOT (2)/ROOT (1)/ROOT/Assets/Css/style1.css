@@ -1,0 +1,837 @@
+/* ------------------------------
+   GENERAL SETTINGS
+------------------------------ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --navy: #0b132b;
+    --dark-navy: #070d1f;
+    --teal: #00b3b8;
+    --light-teal: #d9ffff;
+    --orange: #ff7a00;
+    --yellow: #ffd166;
+    --white: #ffffff;
+    --light: #f3f7fb;
+    --text: #243044;
+    --muted: #667085;
+    --border: #dce5ed;
+    --shadow: 0 12px 30px rgba(11, 19, 43, 0.12);
+    --small-shadow: 0 5px 15px rgba(11, 19, 43, 0.10);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    color: var(--text);
+    background:
+        radial-gradient(circle at top left, #e2ffff 0, transparent 30%),
+        linear-gradient(135deg, #f3f7fb, #eaf1f7);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+a {
+    transition: 0.3s ease;
+}
+
+/* ------------------------------
+   HEADER AND STICKY NAVIGATION
+------------------------------ */
+
+/*
+   These lines keep the complete header
+   visible while the user scrolls.
+*/
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    padding: 20px 30px;
+    color: var(--white);
+    background: rgba(11, 19, 43, 0.96);
+    border-bottom: 3px solid var(--teal);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.18);
+    text-align: center;
+    backdrop-filter: blur(12px);
+}
+
+header h1 {
+    margin-bottom: 14px;
+    color: var(--white);
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+/* Small coloured line below the heading */
+
+header h1::after {
+    display: block;
+    width: 55px;
+    height: 4px;
+    margin: 8px auto 0;
+    background: var(--orange);
+    border-radius: 10px;
+    content: "";
+}
+
+/* Navigation */
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+nav a {
+    display: block;
+    padding: 9px 14px;
+    color: var(--white);
+    border: 1px solid transparent;
+    border-radius: 30px;
+    font-size: 0.95rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover,
+nav a:focus {
+    color: var(--navy);
+    background: var(--light-teal);
+    border-color: var(--teal);
+    transform: translateY(-2px);
+}
+
+/*
+   The Site Map link is highlighted so it
+   remains easy to see in the sticky menu.
+*/
+nav a[href="sitemap.html"],
+.site-map-link {
+    color: var(--navy);
+    background: var(--yellow);
+    border-color: var(--yellow);
+}
+
+nav a[href="sitemap.html"]:hover,
+.site-map-link:hover {
+    color: var(--white);
+    background: var(--orange);
+    border-color: var(--orange);
+}
+
+/* ------------------------------
+   MAIN CONTENT
+------------------------------ */
+
+main {
+    width: 92%;
+    max-width: 1200px;
+    margin: 35px auto;
+}
+
+/*
+   Every normal section gets the same
+   modern advertising-card appearance.
+*/
+main > section:not(.hero) {
+    position: relative;
+    margin-bottom: 28px;
+    padding: 30px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.95);
+    border: 1px solid rgba(220, 229, 237, 0.9);
+    border-top: 4px solid var(--teal);
+    border-radius: 18px;
+    box-shadow: var(--shadow);
+}
+
+/* Decorative corner shape on content cards */
+
+main > section:not(.hero)::after {
+    position: absolute;
+    right: -45px;
+    bottom: -55px;
+    width: 130px;
+    height: 130px;
+    background: rgba(0, 179, 184, 0.08);
+    border-radius: 50%;
+    content: "";
+}
+
+/* ------------------------------
+   HEADINGS AND TEXT
+------------------------------ */
+
+h2 {
+    margin-bottom: 15px;
+    color: var(--navy);
+    font-size: 2.2rem;
+    line-height: 1.2;
+}
+
+h2::after {
+    display: block;
+    width: 48px;
+    height: 4px;
+    margin-top: 9px;
+    background: var(--orange);
+    border-radius: 20px;
+    content: "";
+}
+
+h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: var(--teal);
+    font-size: 1.4rem;
+}
+
+h4 {
+    margin-bottom: 8px;
+    color: var(--navy);
+    font-size: 1.15rem;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+ul {
+    margin-bottom: 15px;
+    padding-left: 24px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* ------------------------------
+   HOME PAGE ADVERTISING HERO
+------------------------------ */
+
+.hero {
+    position: relative;
+    margin-bottom: 28px;
+    padding: 90px 35px;
+    overflow: hidden;
+    color: var(--white);
+    background:
+        linear-gradient(135deg, rgba(11, 19, 43, 0.96), rgba(0, 179, 184, 0.86)),
+        linear-gradient(45deg, var(--navy), var(--teal));
+    border-radius: 22px;
+    box-shadow: 0 18px 40px rgba(11, 19, 43, 0.25);
+    text-align: center;
+}
+
+/* Large decorative circles */
+
+.hero::before,
+.hero::after {
+    position: absolute;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 50%;
+    content: "";
+}
+
+.hero::before {
+    top: -100px;
+    right: -60px;
+    width: 280px;
+    height: 280px;
+}
+
+.hero::after {
+    bottom: -130px;
+    left: -90px;
+    width: 330px;
+    height: 330px;
+    border-color: rgba(255, 209, 102, 0.35);
+}
+
+.hero h2,
+.hero h3 {
+    position: relative;
+    z-index: 1;
+    color: var(--white);
+}
+
+.hero h2 {
+    max-width: 850px;
+    margin: 0 auto 18px;
+    font-size: clamp(2rem, 5vw, 3.6rem);
+    text-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.hero h2::after {
+    width: 70px;
+    margin: 14px auto 0;
+    background: var(--yellow);
+}
+
+.hero p {
+    position: relative;
+    z-index: 1;
+    max-width: 720px;
+    margin: 0 auto 28px;
+    color: #f2ffff;
+    font-size: 1.2rem;
+}
+
+/* ------------------------------
+   BUTTONS
+------------------------------ */
+
+.cta-buttons {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    flex-wrap: wrap;
+}
+
+.btn,
+.btn-secondary,
+button {
+    display: inline-block;
+    padding: 13px 24px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.btn {
+    color: var(--white);
+    background: var(--orange);
+    box-shadow: 0 7px 15px rgba(255, 122, 0, 0.3);
+}
+
+.btn:hover,
+.btn:focus {
+    color: var(--navy);
+    background: var(--yellow);
+    transform: translateY(-4px);
+    box-shadow: 0 10px 20px rgba(255, 209, 102, 0.35);
+}
+
+.btn-secondary {
+    color: var(--navy);
+    background: var(--white);
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus {
+    color: var(--white);
+    background: var(--teal);
+    transform: translateY(-4px);
+}
+
+/* ------------------------------
+   PRODUCT AND SERVICE CARDS
+------------------------------ */
+
+.service-category {
+    margin-bottom: 25px;
+    padding: 25px;
+    background: linear-gradient(135deg, #ffffff, #f4ffff);
+    border-left: 6px solid var(--teal);
+    border-radius: 14px;
+    box-shadow: var(--small-shadow);
+}
+
+.service-category h3 {
+    margin-top: 0;
+}
+
+.service-item {
+    margin-top: 16px;
+    padding: 21px;
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--orange);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(11, 19, 43, 0.06);
+    transition: 0.3s ease;
+}
+
+.service-item:hover {
+    border-left-color: var(--teal);
+    transform: translateY(-6px);
+    box-shadow: var(--shadow);
+}
+
+/* ------------------------------
+   HOME CARDS, TEAM, CONTACT CARDS
+------------------------------ */
+
+.cards,
+.team,
+.involvement-options,
+.contact-locations {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+    margin-top: 22px;
+}
+
+.card,
+.team-member,
+.option,
+.location {
+    position: relative;
+    padding: 24px;
+    overflow: hidden;
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-bottom: 4px solid var(--teal);
+    border-radius: 14px;
+    box-shadow: 0 5px 15px rgba(11, 19, 43, 0.08);
+    transition: 0.3s ease;
+}
+
+.card:hover,
+.team-member:hover,
+.option:hover,
+.location:hover {
+    border-bottom-color: var(--orange);
+    transform: translateY(-7px);
+    box-shadow: var(--shadow);
+}
+
+/* Decorative top line */
+
+.card::before,
+.team-member::before,
+.option::before,
+.location::before {
+    display: block;
+    width: 35px;
+    height: 4px;
+    margin-bottom: 15px;
+    background: var(--orange);
+    border-radius: 10px;
+    content: "";
+}
+
+/* ------------------------------
+   FORMS
+------------------------------ */
+
+.form-section,
+.contact-form-section {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+form {
+    padding: 26px;
+    background: linear-gradient(135deg, #ffffff, #f4ffff);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    box-shadow: var(--small-shadow);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 7px;
+    color: var(--navy);
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 13px 15px;
+    color: var(--text);
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    transition: 0.3s ease;
+}
+
+.form-group textarea {
+    min-height: 145px;
+    resize: vertical;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: var(--teal);
+    box-shadow: 0 0 0 4px rgba(0, 179, 184, 0.15);
+}
+
+.form-group input[type="checkbox"] {
+    width: auto;
+    margin-right: 7px;
+}
+
+/* ------------------------------
+   TABLE
+------------------------------ */
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    overflow: hidden;
+    border-collapse: collapse;
+    border-radius: 10px;
+    box-shadow: var(--small-shadow);
+}
+
+th,
+td {
+    padding: 14px;
+    border: 1px solid var(--border);
+    text-align: left;
+}
+
+th {
+    color: var(--white);
+    background: var(--navy);
+}
+
+tr:nth-child(even) {
+    background: #f3ffff;
+}
+
+tr:hover {
+    background: #fff5e8;
+}
+
+/* ------------------------------
+   IMAGES
+------------------------------ */
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+.hero-image {
+    width: 100%;
+    max-height: 390px;
+    margin-bottom: 25px;
+    object-fit: cover;
+}
+
+/* ------------------------------
+   SITE MAP
+------------------------------ */
+
+.sitemap-section {
+    border-top-color: var(--orange);
+}
+
+.sitemap-list {
+    max-width: 850px;
+    margin-top: 22px;
+    padding-left: 0;
+}
+
+.sitemap-list > li {
+    margin-bottom: 16px;
+    padding: 18px 20px;
+    list-style: none;
+    background: linear-gradient(135deg, #ffffff, #f3ffff);
+    border: 1px solid var(--border);
+    border-left: 5px solid var(--teal);
+    border-radius: 12px;
+    box-shadow: var(--small-shadow);
+    transition: 0.3s ease;
+}
+
+.sitemap-list > li:hover {
+    border-left-color: var(--orange);
+    transform: translateX(6px);
+    box-shadow: var(--shadow);
+}
+
+.sitemap-list > li > a {
+    color: var(--navy);
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.sitemap-list > li > a:hover {
+    color: var(--orange);
+}
+
+.sitemap-list ul {
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+.sitemap-list ul li {
+    color: var(--muted);
+}
+
+/* ------------------------------
+   FOOTER
+------------------------------ */
+
+footer {
+    margin-top: 40px;
+    padding: 30px 20px;
+    color: var(--white);
+    background: var(--dark-navy);
+    border-top: 4px solid var(--orange);
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 8px;
+}
+
+footer a {
+    color: var(--yellow);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: var(--white);
+}
+
+/* ------------------------------
+   TABLET DESIGN
+------------------------------ */
+
+@media screen and (max-width: 900px) {
+    main {
+        width: 94%;
+    }
+
+    .cards,
+    .team,
+    .involvement-options,
+    .contact-locations {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+    }
+}
+
+/* ------------------------------
+   MOBILE DESIGN
+------------------------------ */
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 15px;
+    }
+
+    header {
+        padding: 15px 10px;
+    }
+
+    header h1 {
+        font-size: 1.45rem;
+    }
+
+    nav ul {
+        gap: 5px;
+    }
+
+    nav a {
+        padding: 7px 10px;
+        font-size: 0.85rem;
+    }
+
+    main {
+        width: 94%;
+        margin: 22px auto;
+    }
+
+    main > section:not(.hero) {
+        padding: 21px;
+        border-radius: 14px;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+    }
+
+    .hero {
+        padding: 60px 20px;
+        border-radius: 16px;
+    }
+
+    .hero h2 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .cta-buttons {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .btn,
+    .btn-secondary {
+        width: 100%;
+        text-align: center;
+    }
+
+    .cards,
+    .team,
+    .involvement-options,
+    .contact-locations {
+        grid-template-columns: 1fr;
+    }
+
+    .service-category {
+        padding: 20px;
+    }
+
+    form {
+        padding: 20px;
+    }
+
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    footer {
+        padding: 25px 15px;
+    }
+}
+
+2. Use this navigation on every page
+Replace the navigation section in:
+
+index.html
+about.html
+services.html
+enquiry.html
+contact.html
+sitemap.html
+with this:
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Products</a></li>
+        <li><a href="enquiry.html">Enquiry</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li>
+            <a href="sitemap.html" class="site-map-link">Site Map</a>
+        </li>
+    </ul>
+</nav>
+
+The important part is this CSS:
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+That is what keeps the header and the Site Map link visible when you scroll down the page.
+
+The Site Map link is also highlighted by this CSS:
+
+nav a[href="sitemap.html"],
+.site-map-link {
+    color: var(--navy);
+    background: var(--yellow);
+    border-color: var(--yellow);
+}
+
+3. Make sure every page connects to the stylesheet
+Inside the <head> of every HTML page, use:
+
+<link rel="stylesheet" href="css/styles.css">
+
+Your folder structure should be:
+
+green-valley-website/
+│
+├── index.html
+├── about.html
+├── services.html
+├── enquiry.html
+├── contact.html
+├── sitemap.html
+├── README.md
+│
+├── css/
+│   └── styles.css
+│
+└── images/
+    └── community-centre.jpg
+
+4. Add the Site Map to the footer too
+The Site Map should also be available at the bottom of every page. Use this footer:
+
+<footer>
+    <p>&copy; 2026 Green Valley Community Centre. All rights reserved.</p>
+    <p>
+        <a href="sitemap.html">View Site Map</a>
+    </p>
+</footer>
+
+5. What has changed
+The new styling gives the website:
+
+A dark professional advertising-style header
+A sticky navigation menu
+A permanently visible Site Map link
+A highlighted yellow Site Map button
+A teal, orange, navy, and white advertising colour scheme
+Large promotional Home page hero section
+Modern rounded cards
+Hover animations
+Strong call-to-action buttons
+Improved enquiry and contact forms
+More attractive Products sections
+Responsive layouts for laptops, tablets, and phones
+A more professional Site Map page
+After saving the files, refresh your browser using:
+
+Ctrl + F5
+
+This forces the browser to load the new CSS instead of showing the previous version.
