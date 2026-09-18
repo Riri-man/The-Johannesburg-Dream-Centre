@@ -94,15 +94,6 @@ Version 0.3 – Initial Development
 
 Future versions will document additional functionality, improvements, testing, feedback and changes made during Part 2 and Part 3.
 
-<h1>References</h1>
-
-Johannesburg Dream Center. (n.d.). Our story. Available at: "https://johannesburgdreamcenter.org/charity/our-story/" (https://johannesburgdreamcenter.org/charity/our-story/) (Accessed: 13 August 2026).
-
-Johannesburg Dream Center. (n.d.). Contact us. Available at: "https://johannesburgdreamcenter.org/contact-us/" (https://johannesburgdreamcenter.org/contact-us/) (Accessed: 13 August 2026).
-
-Johannesburg Dream Center. (n.d.). Sponsors. Available at: "https://johannesburgdreamcenter.org/charity/sponsors/" (https://johannesburgdreamcenter.org/charity/sponsors/) (Accessed: 13 August 2026).
-
-Johannesburg Dream Center NPC. (n.d.). Johannesburg Dream Center NPC. LinkedIn. Available at: "https://za.linkedin.com/company/johannesburg-dream-center-npc" (https://za.linkedin.com/company/johannesburg-dream-center-npc) (Accessed: 13 August 2026).
 
 # The Johannesburg Dream Centre Website
 
@@ -510,6 +501,16 @@ The Johannesburg Dream Centre website is a **responsive community information pl
 Its main goal is to connect community members with the centre's educational programs, youth activities, community support services, donation opportunities and contact channels.
 
 The project already contains a strong visual foundation, responsive layouts, navigation, forms and interactive JavaScript features. Further development would focus primarily on improving code structure, fixing existing HTML issues, and adding backend functionality for forms, donations and shopping-cart features.
+
+<h1>References</h1>
+
+Johannesburg Dream Center. (n.d.). Our story. Available at: "https://johannesburgdreamcenter.org/charity/our-story/" (https://johannesburgdreamcenter.org/charity/our-story/) (Accessed: 13 August 2026).
+
+Johannesburg Dream Center. (n.d.). Contact us. Available at: "https://johannesburgdreamcenter.org/contact-us/" (https://johannesburgdreamcenter.org/contact-us/) (Accessed: 13 August 2026).
+
+Johannesburg Dream Center. (n.d.). Sponsors. Available at: "https://johannesburgdreamcenter.org/charity/sponsors/" (https://johannesburgdreamcenter.org/charity/sponsors/) (Accessed: 13 August 2026).
+
+Johannesburg Dream Center NPC. (n.d.). Johannesburg Dream Center NPC. LinkedIn. Available at: "https://za.linkedin.com/company/johannesburg-dream-center-npc" (https://za.linkedin.com/company/johannesburg-dream-center-npc) (Accessed: 13 August 2026).
 
 ## Copyright
 
