@@ -6,7 +6,7 @@ Johannesburg Dream Centre Websit
 
 Johannesburg Dream Centre Website<br>
 
-Student Information<br>.
+Student Information<br>
 
 Student Name: Rinae Manari<br>
 Student Number: ST10495308<br>
