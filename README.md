@@ -75,7 +75,7 @@ Version 0.1 – Initial Project Setup
 - Researched the Johannesburg Dream Centre.
 - Established the initial website requirements.
 - Planned the website structure and sitemap.
-- DATE:Sep 18, 2026
+- DATE:Aug 13, 2026
 
 Version 0.2 – User Interface Design
 
@@ -83,7 +83,7 @@ Version 0.2 – User Interface Design
 - Planned the navigation structure.
 - Designed the main website sections.
 - Selected appropriate content and imagery.
-- DATE:Sep 18, 2026
+- DATE:Aug 14, 2026
 
 Version 0.3 – Initial Development
 
