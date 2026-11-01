@@ -1,519 +1,428 @@
-# The-Johannesburg-Dream-Centre
-The Johannesburg Dream Centre
-Johannesburg Dream Centre Websit
-
-<h1>Project Title<br></h1>
-
-Johannesburg Dream Centre Website<br>
-
-Student Information<br>
-
-Student Name: Rinae Manari<br>
-Student Number: ST10495308<br>
-Course: Diploma in IT Management<br>
-Institution: Rosebank International Braamfontein<br>
-Module: WEDE5020<br>
-
-<h1>Project: Website Development – Part 1<br></h1>
-
-Project Overview
-
-The Johannesburg Dream Centre is a South African non-profit organisation founded in June 2014 with the objective of alleviating poverty within and around Johannesburg. The organisation focuses on addressing challenges such as hunger, unemployment and other basic needs while empowering people living in poverty to improve their quality of life.
-
-The organisation follows a multi-level approach that combines meeting immediate needs with empowerment and opportunities for sustainable development. Its activities include community outreach, education and skills development, employment support, computer literacy, CV assistance, interview preparation, job-readiness programmes, sewing and income-generation skills, school support and other poverty-alleviation initiatives.
-
-The Johannesburg Dream Centre is a Christian organisation, but its services are available to people in need regardless of their religious denomination. Its work is guided by values such as kindness, compassion, empowerment, belonging, integrity and commitment. The organisation aims to help create a Johannesburg where poverty is significantly reduced and people have hope for a brighter future.
-
-<h1>Website Goals and Objectives<br></h1>
-
-The main goal of the website is to provide an informative, accessible and user-friendly online platform for the Johannesburg Dream Centre.<br>
-
-The objectives of the website are to:<br>
-
-- Introduce visitors to the Johannesburg Dream Centre and its purpose.
-- Explain the organisation's mission, vision and values.
-- Showcase the organisation's community projects and programmes.
-- Provide information about how individuals can receive support.
-- Encourage people to volunteer and contribute to the organisation.
-- Provide information about donations and opportunities for corporate partnerships.
-- Make the organisation's contact information easily accessible.
-- Create a professional online presence that increases awareness of the organisation and its work.
-
-<h1>Key Features and Functionality<br></h1>
-
-The proposed website will include:<br>
-
-- Home Page – Introduction to the Johannesburg Dream Centre and its purpose.
-- About Us – Information about the organisation, its history, mission, vision and values.
-- Projects/Programmes – Information about community development, poverty alleviation, education, employment support and skills-development initiatives.
-- Get Involved – Information for volunteers, donors and organisations interested in supporting the Dream Centre.
-- Gallery – Images showcasing the organisation's activities and community initiatives.
-- Contact Us – Contact details and a contact form for enquiries.
-- Responsive Design – The website will be designed to work on computers, tablets and mobile devices.
-- Navigation – A clear navigation menu will allow users to move easily between the different sections of the website.
-
-The organisation's published information indicates that its work includes computer literacy training, CV creation, job-search support, interview preparation, job-readiness programmes, sewing and income-generation skills, school support and community outreach.<br>
-
-<h1>Timeline and Milestones<br></h1>
-
-Project Kickoff [07/08/2026]<br>
-Content Research Complete [08/08/2026]<br>
-HTML Structure Complete [12/08/2026]<br>
-CSS Styling Complete [17/09/2026]<br>
-Testing and Debugging [Date]<br>
-Final Submission [Date]<br>
-
-<h1>Sitemap</h1>
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/0ad1c7eb-d2d9-411b-ab27-c91cf748005a" />
-
-
-<h1>Changelog</h1>
-
-Version 0.1 – Initial Project Setup
-
-- Created the project repository.
-- Researched the Johannesburg Dream Centre.
-- Established the initial website requirements.
-- Planned the website structure and sitemap.
-- DATE:Aug 13, 2026
-
-Version 0.2 – User Interface Design
-
-- Created the initial website layout.
-- Planned the navigation structure.
-- Designed the main website sections.
-- Selected appropriate content and imagery.
-- DATE:Aug 14, 2026
-
-Version 0.3 – Initial Development
-
-- Created the initial HTML structure.
-- Added CSS styling.
-- Added website content.
-- Started implementing responsive design.
-- DATE:Sep 18, 2026
-
-<h1>Future Updates</h1>
-
-Future versions will document additional functionality, improvements, testing, feedback and changes made during Part 2 and Part 3.
-
-
 # The Johannesburg Dream Centre Website
 
-## Project Overview part 2
+A multi-page community website built with **HTML5, CSS3 and JavaScript** for The Johannesburg Dream Centre.
 
+**Last documentation update:** 1 November 2026  
+**Project stage:** Parts 1, 2 and subsequent interactive website updates  
+**Status:** Static website with interactive search, catalogue, cart, gallery and externally connected forms. This is not a complete payment or order-management system.
 
-The **Johannesburg Dream Centre Website** is a responsive, multi-page community website developed for **The Johannesburg Dream Centre**.
+## Student Information
 
-The purpose of the website is to provide community members, volunteers, donors, and potential partners with information about the organisation, its history, programs, services, donation opportunities, and contact details.
+| Field | Details |
+| --- | --- |
+| Student name | Rinae Manari |
+| Student number | ST10495308 |
+| Course | Diploma in IT Management |
+| Institution | Rosebank International Braamfontein |
+| Module | WEDE5020 |
 
-The website uses **HTML5, CSS3, and JavaScript** to create a modern, interactive, and responsive user experience.
+## Project Overview
 
----
+The Johannesburg Dream Centre is a South African non-profit organisation founded in June 2014 to help alleviate poverty within and around Johannesburg. Its work combines immediate support with education, skills development and opportunities for sustainable improvement.
 
-## Main Features
+The organisation's published information describes community outreach, computer literacy, CV assistance, interview preparation, job-readiness programmes, sewing and income-generation skills, school support and other poverty-alleviation initiatives. It is a Christian organisation whose services are available to people in need regardless of religious denomination.
 
-### Home Page
+The website introduces the organisation, presents its programmes and community activities, and helps visitors find information about volunteering, donations, partnerships and contact channels. Programme descriptions and statistics displayed in the student website should be confirmed with the organisation before use as an official website.
 
-The home page introduces visitors to The Johannesburg Dream Centre and provides:
+## Website Goals and Objectives
 
-* Organisation name and logo
-* Welcome message
-* Hero image
-* Introduction to the centre
-* Calls to action
-* Overview of the organisation's main services
-* Navigation to other pages
+- Explain the organisation's history, mission, vision and values.
+- Present its programmes and community-support services.
+- Help community members find relevant information and support.
+- Encourage volunteering, donations and partnerships.
+- Make contact and enquiry options easy to find.
+- Provide clear navigation on computers, tablets and phones.
+- Support keyboard access and readable feedback during interactions.
+- Improve discoverability through page metadata, `robots.txt` and `sitemap.xml`.
 
-### About Us
+## Website Pages
 
-The About Us page contains:
+| Page | File | Main content |
+| --- | --- | --- |
+| Home | `index.html` | Introduction, programme overview, community imagery and calls to action |
+| About Us | `Assets/about.html` | Organisation history, mission, vision, values, team and community impact |
+| Services | `Assets/services.html` | Programme catalogue, filters, programme details and priced donation/product items |
+| Enquiry | `Assets/enquiry.html` | Embedded Google Form for enquiries and involvement |
+| Contact | `Assets/contact.html` | Contact details, opening hours, Google Maps location and contact form |
 
-* Organisation history
-* Mission statement
-* Vision statement
-* Team member information
-* Achievements and community impact
+The navigation connects all five pages. The gallery and involvement information are sections of the existing pages, not separate `gallery.html` or `get-involved.html` files.
 
-### Programs and Services
+## Current Features and New Improvements
 
-The Services page provides information about the programs offered by the centre, including:
+### Navigation and Layout
 
-* Computer Literacy Classes
-* Adult Education
-* Sports and Recreation
-* Arts and Culture
-* Leadership Development
-* Family Counselling
-* Job Placement Assistance
-* Senior Citizen Programs
+- Shared navigation styling across all five pages.
+- Mobile menu with open and close behaviour.
+- Active-page highlighting to show the visitor's current page.
+- Responsive layouts for desktop, tablet and mobile screens.
+- Back-to-top button, visible from approximately **420 pixels** of scrolling, with smooth scrolling to the page top.
+- Shared footer styling, social links and automatic footer-year updates.
 
-The page also includes information about donations and a scarf donation product.
+### Search Symbol and Site Search
 
-### Enquiry Page
+The original page-name search has been replaced with a content search system.
 
-The enquiry page allows visitors to submit information about:
+- A small **magnifying-glass symbol** replaces the wide search bar in the header.
+- Clicking or tapping the symbol opens the search field and results panel.
+- Search matches page titles and page content, rather than only fixed page names.
+- Results show a page title, a short matching text snippet and a link to the page.
+- Results appear after entering at least **two characters**.
+- Pressing Enter opens the first matching result.
+- Escape closes the panel and returns focus to the search symbol.
+- Clicking outside the panel also closes it.
+- The panel is positioned below the header on smaller screens to avoid covering navigation.
+- When served over HTTP, search reads `sitemap.xml` and loads the listed pages to build its index.
+- A built-in copy of the five pages' text is used when no pages can be loaded, including when opening the website directly from a local folder.
+- The index is cached for the current page session, avoiding repeated loading on each keystroke.
+- Result text is created using `textContent` rather than inserting fetched page text as HTML.
 
-* Program information
-* Volunteering
-* Sponsorship and donations
-* Partnerships
-* Other enquiries
+**Maintenance:** Refresh the built-in search copy when page wording changes or pages are added. Hosted search can discover new pages only after they are listed in the sitemap and are reachable. Offline search does not update itself, and the fallback is used when the fetched index is empty, not to fill every missing page in a partially loaded index.
 
-It also includes an option to subscribe to the organisation's newsletter.
+### Catalogue and Programme Details
 
-### Contact Page
+- Catalogue items are rendered from shared JavaScript data.
+- Search, category filters and sorting controls help visitors browse the catalogue.
+- Programme details open in a dialog without leaving the current page.
+- Priced items provide an Add to Cart option.
+- Informational programmes are distinguished from priced items.
 
-The Contact page provides:
+### Shopping Cart and Place Order
 
-* Physical address
-* Telephone number
-* Email address
-* Opening hours
-* Contact form
-* Embedded Google Maps location
+The old README described a missing cart function. The current website includes a cart implementation.
 
----
+- Add priced items to the cart.
+- Track quantities and update the cart count in the header.
+- Open the cart dialog to review selected items.
+- Remove items or cancel the whole order.
+- Keep cart contents in the current browser using `localStorage`.
+- Show a **Place order** form when the cart contains items.
+- Request the customer's full name, email address and phone number.
+- Validate these details before attempting to save the order.
+- Disable the submission button while processing to reduce duplicate submissions.
+- Generate an order reference beginning with `JDC-`.
+- Attempt to save through the existing Canva data SDK if it is available; otherwise attempt browser-local storage.
+- Clear the cart and display a thank-you message after the save attempt.
 
-# Technologies Used
+**Important limitations:** No payment is taken. Local storage is only on the visitor's device and does not notify the organisation. No owner order dashboard or order-confirmation email is implemented. The current code can show confirmation even if both storage attempts fail; its message is not proof of a received or durably stored order. Reliable shared storage and confirmed delivery are still required for production orders.
 
-## HTML5
+### Contact Form
 
-HTML is used to create the structure and content of the website.
+- The Contact page uses a shared JavaScript form handler.
+- Required fields, email addresses and phone numbers are validated.
+- Invalid fields receive feedback, and focus moves to the first invalid field.
+- Submission progress, success and error messages are displayed.
+- Duplicate submission attempts are blocked while a request is processing.
+- Contact messages are sent to the configured **Formspree** endpoint.
+- This connection is not limited to Lovable hosting, but requires internet access and a working Formspree endpoint that accepts the deployed site's requests.
 
-The project uses HTML elements including:
+**Email status:** Formspree is connected in the code, but account ownership, delivery settings and actual email delivery have not been verified for this documentation update. Automatic emails to both the sender and the receiver were discussed, not completed or confirmed. Sender acknowledgements require the appropriate service settings and may depend on the provider's plan.
 
-* `<header>`
-* `<nav>`
-* `<main>`
-* `<section>`
-* `<footer>`
-* `<form>`
-* `<input>`
-* `<textarea>`
-* `<select>`
-* `<img>`
-* `<div>`
+### Enquiry Form
 
-## CSS3
+- The current Enquiry page embeds a **Google Form**.
+- The form provides an enquiry/involvement submission channel outside the website's own JavaScript form handler.
+- It requires internet access and an accessible Google Form.
+- Google Forms controls response collection, validation and storage for this embedded form.
 
-The website uses a central stylesheet called:
+**Email status:** Owner notifications and responder copies must be enabled in Google Forms. These settings have not been verified. The shared script still contains a Canva/browser-storage handler for local forms, but that is not the submission path used by the current embedded enquiry form.
 
-```text
-Css/style1.css
-```
+### Gallery and Dialogs
 
-The CSS provides:
+- Gallery images open in an enlarged preview dialog.
+- Programme information and the cart use dialogs.
+- Dialogs support close controls and Escape-key handling.
+- Focus is contained within an open dialog and restored when it closes.
+- Background scrolling is controlled while dialogs are open.
 
-* Page layout
-* Colours
-* Typography
-* Buttons
-* Cards
-* Forms
-* Navigation styling
-* Hero section
-* Shadows and borders
-* Hover effects
-* Responsive layouts
-* Mobile and tablet support
+### Silver Star Effects
 
-### CSS Variables
+- Small silver-gray stars appear around taps or clicks.
+- Scrolling creates occasional stars across the screen.
+- The effect fades away in under a second.
+- Stars do not intercept clicks because they use `pointer-events: none`.
+- Scroll effects are throttled to limit how often stars are created.
+- Star effects are disabled when the visitor requests reduced motion.
 
-The stylesheet uses CSS custom properties to maintain a consistent colour scheme:
+### Speed Improvements
 
-```css
---navy
---dark-navy
---teal
---light-teal
---orange
---yellow
---white
---light
---text
---muted
---border
---shadow
-```
+- Website images were compressed to reduce download size.
+- Previous optimisation work reduced the photos from approximately **760 KB to 390 KB** and made the logo approximately **five times smaller**; these are earlier file-size comparisons, not a measured loading-time guarantee.
+- Images further down pages use lazy loading, with asynchronous image decoding where added.
+- The embedded map and enquiry form use lazy loading.
+- Google Fonts connection hints are included.
+- Search loading begins when needed and its index is reused during the page session.
 
-This makes the website's colours easier to maintain and update.
+**Performance status:** These changes reduce initial loading work, but a before-and-after page-speed benchmark has not been recorded. External fonts, maps and forms still depend on network conditions.
 
----
+### Code Comments and Maintainability
 
-# Responsive Design
+- Added explanatory comments above shared JavaScript functions.
+- Added notes for validation patterns, focus handling and duplicate-submission protection.
+- Added HTML section markers for page structure, forms, dialogs and scripts.
+- Added CSS comments for theme variables and responsive sections.
+- Standardised line endings in the pages inside `Assets/` during the commenting update.
+- Kept common behaviour in `scripts/script.js` rather than repeating inline functions across pages.
 
-The website includes responsive CSS media queries for different screen sizes.
+## Technologies and Design
 
-### Desktop
+| Technology | Purpose |
+| --- | --- |
+| HTML5 | Semantic page structure, navigation, forms and content |
+| CSS3 | Layouts, visual styling, responsive media queries and animations |
+| JavaScript | Navigation, search, catalogue, cart, dialogs, form handling and stars |
+| Browser `localStorage` | Device-local cart and fallback submission storage |
+| XML sitemap | List of pages for crawlers and hosted site search |
+| `robots.txt` | Crawler instructions and sitemap reference |
+| Formspree | External contact-form submission service |
+| Google Forms | Embedded enquiry submission form |
+| Google Maps | Embedded location map |
+| Google Fonts | DM Sans and Fraunces typography |
+| Optional Canva data SDK | Conditional saving when the SDK is available and configured |
 
-The main layout uses a maximum content width of approximately `1200px`.
+No package installation, database or application server is required to view the exported static pages. External forms and maps are separate online services.
 
-### Tablet
+The current stylesheet is **`styles/style.css`**, not the old `Css/style1.css`. It uses CSS custom properties for navy, deep navy, teal, orange, yellow, cream, ink, muted text, borders, success/error states and shadows. Star styling uses silver-gray. Responsive rules include adjustments around 1024, 768, 767, 480 and 420 pixels, together with reduced-motion rules.
 
-At screen widths below `900px`, cards and team sections change from three columns to two columns.
-
-### Mobile
-
-At screen widths below `600px`:
-
-* Cards become single-column layouts.
-* Buttons become full width.
-* Font sizes are reduced.
-* Hero section padding is reduced.
-* Forms become more compact.
-* Tables can scroll horizontally.
-* Footer spacing is reduced.
-
-This allows the website to adapt to desktop, tablet, and mobile screens.
-
----
-
-# JavaScript Features
-
-JavaScript is used to add interactive functionality to the website.
-
-## Hamburger Menu
-
-The hamburger menu can be opened and closed using:
-
-```javascript
-function toggleMenu() {
-    document.getElementById("siteMapMenu").classList.toggle("show");
-}
-```
-
-The `.show` CSS class controls whether the sitemap dropdown is visible.
-
-## Search
-
-The search function checks whether the user entered the name of one of the website's pages.
-
-Supported searches include:
+## Project Structure
 
 ```text
-Home
-About
-About Us
-Products
-Services
-Enquiry
-Contact
-```
-
-If a matching page is found, JavaScript redirects the user to that page.
-
-If no matching page is found, the website displays an alert.
-
-## Back to Top
-
-The website includes a **Back to Top** button.
-
-The button appears when the user scrolls more than 200 pixels down the page.
-
-JavaScript then uses smooth scrolling to return the user to the top.
-
----
-
-# Design
-
-The website uses a modern community-focused visual design.
-
-### Colour Scheme
-
-The primary colours include:
-
-| Colour          | Purpose                                   |
-| --------------- | ----------------------------------------- |
-| Navy            | Header, headings and primary elements     |
-| Teal            | Borders, accents and interactive elements |
-| Orange          | Buttons and highlights                    |
-| Yellow          | Secondary highlights                      |
-| White           | Cards and content areas                   |
-| Light blue/grey | Page background                           |
-
-### Visual Effects
-
-The stylesheet includes:
-
-* Drop shadows
-* Rounded corners
-* Gradient backgrounds
-* Hover animations
-* Smooth transitions
-* Decorative circles
-* Coloured borders
-* Sticky navigation
-
-These features are intended to create a clean and modern appearance.
-
----
-
-# Project Structure
-
-```text
-Johannesburg-Dream-Centre/
-│
-├── index.html
-│
+Root/
+├── index.html                       # Home page
 ├── Assets/
-│   ├── about us.html
-│   ├── services.html
-│   ├── enquiry.html
-│   └── contact.html
-│
-├── Css/
-│   └── style1.css
-│
-└── Images/
-    ├── Logo.png
-    ├── blurred.jpg
-    ├── Alicia.png
-    ├── oscar.png
-    ├── zakhele.png
-    ├── White-Minimalist-Product-Instagram-Post-1-300x300.png
-    ├── computer Literracy.jpeg
-    ├── Adults.jpeg
-    ├── youth-programs.jpg
-    ├── Arts and Culture.jpg
-    ├── leadership Development.jpg
-    ├── Community Support Services.jpg
-    ├── Job placement assistance.jpg
-    └── Senior Citizen Programs.jpg
+│   ├── about.html                   # About Us page
+│   ├── contact.html                 # Contact form and map
+│   ├── enquiry.html                 # Embedded Google Form
+│   └── services.html                # Catalogue and programmes
+├── images/
+│   ├── Alicia.png
+│   ├── Community Support Services.jpg
+│   ├── Senior Citizen Programs.jpg
+│   ├── blurred.jpg
+│   ├── logo-mark.png
+│   ├── oscar.png
+│   ├── youth-programs.jpg
+│   └── zakhele.png
+├── scripts/
+│   └── script.js                    # Shared interactions and offline search data
+├── styles/
+│   └── style.css                    # Shared styling and responsive rules
+├── robots.txt                       # Search-engine crawler instructions
+└── sitemap.xml                      # Five-page sitemap
 ```
 
----
+This tree documents the website source, not Lovable's surrounding preview application. Add this document as `README.md` at the repository root. File names and capitalisation must remain consistent, especially on case-sensitive hosting.
 
-# Website Pages
+## Sitemap and Search-Engine Discoverability
 
-| Page            | Description                      |
-| --------------- | -------------------------------- |
-| `index.html`    | Home page                        |
-| `about us.html` | Organisation information         |
-| `services.html` | Programs, services and donations |
-| `enquiry.html`  | Enquiry and involvement form     |
-| `contact.html`  | Contact details and map          |
+The XML sitemap includes Home, About Us, Services, Enquiry and Contact. It is separate from the visual planning sitemap below.
 
----
+![Original website planning sitemap](https://github.com/user-attachments/assets/0ad1c7eb-d2d9-411b-ab27-c91cf748005a)
 
-# How to Run the Project
+- `robots.txt` tells external crawlers which paths they may visit and points to the sitemap.
+- The on-site search reads `sitemap.xml`; it does **not** read `robots.txt`.
+- Pages contain titles, descriptions and Open Graph metadata.
+- The home page includes structured organisation data using JSON-LD.
+- The robots sitemap reference was changed to include `/site/sitemap.xml` for the preview's folder structure.
 
-Because the project is currently a static website, no database or backend server is required to view the pages.
+**Deployment check still required:** The current robots and sitemap files use `https://johannesburg-dream-centre.lovable.app/site/…`, which differs from this project's supplied published address, `https://johannesburgdreamcenterorg.lovable.app`. Replace the sitemap page addresses and robots sitemap reference with the final public host and actual page paths before relying on crawler discovery. Serve `robots.txt` at the domain root; a copy only inside `/site/` is not the standard crawler entry point. If publishing at the domain root instead of `/site/`, update those paths accordingly. These files help discovery but do not guarantee Google indexing.
 
-### Steps
+## How to Run the Website
 
-1. Download or clone the project.
-2. Keep the existing folder structure.
-3. Make sure the `Css` folder contains `style1.css`.
-4. Make sure the `Images` folder contains all required images.
-5. Open `index.html` in a web browser.
-6. Use the navigation menu to browse the website.
+### Open from a Local Folder
 
-For development, the project can also be opened using a code editor such as Visual Studio Code.
+1. Download and extract the website archive.
+2. Keep the `Assets`, `images`, `scripts` and `styles` folders alongside `index.html`.
+3. Open `index.html` in a browser.
+4. Browse the pages using the navigation links.
 
----
+Local page navigation and built-in fallback search are intended to work without hosting. Online forms, maps and externally loaded fonts still require internet access. Cart and submission storage depend on the browser allowing local storage.
 
-# Contact Information
+### Run through a Local Web Server
 
-The website currently displays the following contact information:
+Use Visual Studio Code Live Server, or run the following from the website folder if Python is installed:
 
-**The Johannesburg Dream Centre**
-
-**Email:** [info@Johannesburgdreamcenter.org](mailto:info@Johannesburgdreamcenter.org)
-**Phone:** +27 81 402 8576
-
-**Address:**
-1st Floor Northlands Corner
-New Market Road
-Hoogland
-Gauteng
-
-**Opening Hours:**
-
-* Monday – Friday: 9:00 AM – 3:00 PM
-* Saturday: 8:00 AM – 2:00 PM
-* Sunday: Closed
-
----
-
-### Form Functionality
-
-The contact and enquiry forms currently do not have a backend. Therefore, submitted information is not actually stored or sent to the organisation.
-
-### Search
-
-The search feature searches for **page names**, rather than searching the actual content of the website.
-
-### JavaScript
-
-Some JavaScript functions are repeated across multiple HTML pages.
-
-For example, `toggleMenu()` appears more than once.
-
-A better approach would be to create a separate JavaScript file:
-
-```text
-Js/script.js
+```bash
+python3 -m http.server 8000
 ```
 
-and place the shared functionality there.
+Then open `http://localhost:8000/index.html`. Serving over HTTP allows search to fetch the sitemap and current page content instead of relying only on its built-in copy.
 
-### File Paths
+### Publish on Static Hosting or GitHub Pages
 
-Some links use different relative paths depending on the page. These should be standardised to prevent broken links.
+- Put the website files and folders in the selected publishing directory.
+- Add this README to the repository root.
+- Configure the host to serve `index.html`.
+- Preserve file names and relative asset paths.
+- Update absolute sitemap/robots addresses to match the actual deployment.
+- Check Formspree and Google Forms on the published site.
+- For GitHub Pages project sites, include the repository subpath in sitemap URLs. The domain-root robots file may be outside the project site's control.
 
-### Donation System
+## Timeline and Milestones
 
-The donation functionality is currently primarily informational. A proper payment or donation system would need to be connected before real transactions could be processed.
+Dates below preserve the original README rather than inventing missing dates.
 
-### Shopping Cart
+| Milestone | Recorded date/status |
+| --- | --- |
+| Project kickoff | 7 August 2026 |
+| Content research complete | 8 August 2026 |
+| HTML structure complete | 12 August 2026 |
+| Initial repository setup documented | 13 August 2026 |
+| Initial interface design documented | 14 August 2026 |
+| CSS styling complete | 17 September 2026 |
+| Initial development documented | 18 September 2026 |
+| JavaScript, comments, robots and sitemap update | Recorded under 28 October 2026 in the previous changelog |
+| Search, cart, effects and performance updates | Documented by 1 November 2026; individual completion dates not recorded |
+| Full production testing and final submission | Dates not supplied |
 
-The **Add to Cart** button references an `addToCart()` function, but that function is not included in the supplied JavaScript. A shopping-cart system would therefore need to be implemented.
+**Time taken:** Exact working hours and durations were not supplied. The initial recorded CSS period spans 7 August to 17 September 2026, but calendar dates do not establish time spent working. Add actual hours or sessions when available.
 
----
+## Changelog — From the Beginning
 
-# Possible Future Improvements
+### Version 0.1 — Initial Project Setup — 13 August 2026
 
-Future versions of the website could include:
+- Created the initial project repository.
+- Researched the Johannesburg Dream Centre.
+- Established website requirements, objectives and planned structure.
+- Created the original planning sitemap.
 
-* Functional online donations
-* Shopping cart functionality
-* Database integration
-* Working contact and enquiry forms
-* Email notifications
-* Improved search functionality
-* Dedicated JavaScript file
-* Dedicated reusable navigation/footer components
-* Improved accessibility
-* Form validation
-* Success/error messages after submitting forms
-* Social media integration
-* Gallery of community activities
-* News and events section
-* Volunteer registration
-* Improved mobile navigation
-* Website analytics
-* SEO improvements
+### Version 0.2 — User Interface Design — 14 August 2026
 
----
+- Planned the website layout, navigation and main sections.
+- Selected content and imagery.
+- Established the initial visual direction.
 
-# Conclusion
+### Version 0.3 — Initial Development — 18 September 2026
 
-The Johannesburg Dream Centre website is a **responsive community information platform** built with HTML, CSS and JavaScript.
+- Created the HTML pages and initial CSS styling.
+- Added organisation and programme content.
+- Began responsive desktop, tablet and mobile layouts.
 
-Its main goal is to connect community members with the centre's educational programs, youth activities, community support services, donation opportunities and contact channels.
+### Part 2 — Multi-page Website Development — Date Not Recorded
 
-The project already contains a strong visual foundation, responsive layouts, navigation, forms and interactive JavaScript features. Further development would focus primarily on improving code structure, fixing existing HTML issues, and adding backend functionality for forms, donations and shopping-cart features.
+- Developed Home, About Us, Services, Enquiry and Contact pages.
+- Added programme information, team content, imagery and donation/product information.
+- Added contact details, opening hours and an embedded location map.
+- Added navigation, early page-name search and back-to-top behaviour.
+- Documented the website's original limitations and future improvements.
 
-<h1>References</h1>
+### Shared JavaScript, Comments and SEO Files — Recorded 28 October 2026
 
-Johannesburg Dream Center. (n.d.). Our story. Available at: "https://johannesburgdreamcenter.org/charity/our-story/" (https://johannesburgdreamcenter.org/charity/our-story/) (Accessed: 13 August 2026).
+- Consolidated shared behaviour in `scripts/script.js`.
+- Updated mobile navigation, active navigation, catalogue, cart, dialogs, gallery and form handling.
+- Added email/phone validation, feedback and duplicate-submission guards.
+- Added keyboard handling for catalogue controls and dialogs.
+- Added explanatory comments throughout HTML, CSS and JavaScript.
+- Updated `robots.txt` and the five-page XML sitemap.
+- Prepared project-structure and changelog documentation for GitHub.
 
-Johannesburg Dream Center. (n.d.). Contact us. Available at: "https://johannesburgdreamcenter.org/contact-us/" (https://johannesburgdreamcenter.org/contact-us/) (Accessed: 13 August 2026).
+### Search, Preview and Export Updates — Documented by 1 November 2026
 
-Johannesburg Dream Center. (n.d.). Sponsors. Available at: "https://johannesburgdreamcenter.org/charity/sponsors/" (https://johannesburgdreamcenter.org/charity/sponsors/) (Accessed: 13 August 2026).
+- Added sitemap-driven content search to all five pages.
+- Corrected result titles so individual page names appear.
+- Replaced the wide header search bar with a compact magnifier symbol.
+- Added panel toggle, outside-click dismissal and Escape handling.
+- Added built-in page text so search can work from an extracted local folder.
+- Adjusted the robots sitemap path for the `/site/` preview directory.
+- Set up a live website preview and packaged the static source under the requested archive name, `Root.zip`.
 
-Johannesburg Dream Center NPC. (n.d.). Johannesburg Dream Center NPC. LinkedIn. Available at: "https://za.linkedin.com/company/johannesburg-dream-center-npc" (https://za.linkedin.com/company/johannesburg-dream-center-npc) (Accessed: 13 August 2026).
+### Cart and Visual Effects — Documented by 1 November 2026
+
+- Added the Place order form with customer details and validation.
+- Added generated order references, saving attempts, cart clearing and confirmation text.
+- Added small stars on clicks/taps and scrolling.
+- Changed stars from gold to silver-gray.
+- Added reduced-motion handling and non-blocking effect styling.
+
+### Forms and Performance — Documented by 1 November 2026
+
+- Connected the contact form to Formspree and the enquiry page to an embedded Google Form.
+- Compressed website photos and the logo.
+- Added lazy loading and asynchronous decoding where appropriate.
+- Discussed sender and receiver email notifications; service settings and delivery remain unverified.
+
+### README Refresh — 1 November 2026
+
+- Combined the original project information with the subsequent updates.
+- Corrected outdated file paths, search descriptions and the claim that cart code was missing.
+- Separated implemented features from unfinished production requirements.
+- Preserved original milestone dates, student information and references.
+- Left unrecorded dates and development durations explicitly unconfirmed.
+
+## Testing Record and Recommended Checks
+
+Earlier development checks reported:
+
+- JavaScript syntax checking after comments were added.
+- Comparison confirming the commenting update did not change executable content, apart from HTML line-ending normalisation.
+- Desktop and phone-size search-panel checks, result selection, Escape and outside-click dismissal.
+- Search from a directly opened local folder using the built-in text copy.
+- Silver stars checked against both light and dark sections.
+- Preview home-page loading and navigation to the About Us page.
+
+This README update does not constitute a fresh end-to-end test of every feature. Complete the following before official launch:
+
+- [ ] Check navigation, images and search on all five pages at the final hosting address.
+- [ ] Test cart quantities, removal, cancellation and validation.
+- [ ] Verify an order is actually stored and visible to the organisation before claiming receipt.
+- [ ] Test invalid and valid contact submissions and confirm receiver email delivery.
+- [ ] Test the embedded enquiry form and verify its Google Forms response record.
+- [ ] Enable and confirm sender acknowledgements and owner notifications for both forms.
+- [ ] Check keyboard access, focus, reduced-motion behaviour and mobile layouts.
+- [ ] Correct sitemap/robots deployment URLs and verify crawler access.
+- [ ] Measure performance before and after optimisation using the same conditions.
+- [ ] Confirm organisation content, contact details, opening hours, statistics and image permissions.
+
+## Remaining Limitations and Future Improvements
+
+1. **Reliable order receipt:** Add shared production storage, an owner view and confirmed order notifications. Correct the confirmation behaviour when saving fails.
+2. **Payments:** No payment gateway or completed online donation transaction is implemented.
+3. **Email copies:** Emails to both sender and receiver for Contact and Enquiry have not been confirmed or fully set up.
+4. **Local storage:** Browser-local records are not shared, can be cleared and should not be treated as secure production storage for personal information.
+5. **External dependencies:** Formspree, Google Forms, Maps and Google Fonts need internet access and appropriate service configuration.
+6. **Search maintenance:** Update the sitemap and offline text copy when content changes; improve handling of partially unavailable pages.
+7. **SEO deployment:** Correct the current host/path mismatch and verify indexing separately.
+8. **Further improvements:** Privacy information, spam protection, analytics, news/events and more comprehensive accessibility and performance testing remain possible future work, not completed features.
+
+## Contact Information in the Original README
+
+The original documentation listed the following details. They are retained as supplied, not independently verified organisation details:
+
+- **Email:** [info@Johannesburgdreamcenter.org](mailto:info@Johannesburgdreamcenter.org)
+- **Phone:** +27 81 402 8576
+- **Address:** 1st Floor Northlands Corner, New Market Road, Hoogland, Gauteng
+- **Hours:** Monday–Friday 9:00 AM–3:00 PM; Saturday 8:00 AM–2:00 PM; Sunday closed
+
+Confirm these details with the organisation before publishing as official information.
+
+## References
+
+### Organisation Research — Original References
+
+- Johannesburg Dream Center. (n.d.). *Our story*. Available at: https://johannesburgdreamcenter.org/charity/our-story/ (Accessed: 13 August 2026).
+- Johannesburg Dream Center. (n.d.). *Contact us*. Available at: https://johannesburgdreamcenter.org/contact-us/ (Accessed: 13 August 2026).
+- Johannesburg Dream Center. (n.d.). *Sponsors*. Available at: https://johannesburgdreamcenter.org/charity/sponsors/ (Accessed: 13 August 2026).
+- Johannesburg Dream Center NPC. (n.d.). *Johannesburg Dream Center NPC*. LinkedIn. Available at: https://za.linkedin.com/company/johannesburg-dream-center-npc (Accessed: 13 August 2026).
+
+### Technical Documentation — Further Reading
+
+These links document the technologies used; no new consultation dates are claimed.
+
+- MDN Web Docs. *HTML*. https://developer.mozilla.org/en-US/docs/Web/HTML
+- MDN Web Docs. *CSS*. https://developer.mozilla.org/en-US/docs/Web/CSS
+- MDN Web Docs. *JavaScript*. https://developer.mozilla.org/en-US/docs/Web/JavaScript
+- MDN Web Docs. *Window: localStorage property*. https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
+- MDN Web Docs. *Fetch API*. https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
+- Sitemaps.org. *Sitemaps XML format*. https://www.sitemaps.org/protocol.html
+- Google Search Central. *Introduction to robots.txt*. https://developers.google.com/search/docs/crawling-indexing/robots/intro
+- Formspree. *Help Center*. https://help.formspree.io/
+- Google. *Google Forms Help*. https://support.google.com/docs/topic/9055404
+- GitHub Docs. *GitHub Pages documentation*. https://docs.github.com/en/pages
+
+## Conclusion
+
+The project has progressed from an informational multi-page site to an interactive community website with shared JavaScript, content search, an offline search fallback, a catalogue, cart, order-entry form, gallery dialogs, silver star effects, externally connected forms and lighter images.
+
+The remaining priority is production reliability: verified form emails, confirmed order receipt, payment integration if required, correct deployment URLs and full launch testing.
 
 ## Copyright
 
