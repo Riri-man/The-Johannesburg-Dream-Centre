@@ -2,7 +2,7 @@
 
 A multi-page community website built with **HTML5, CSS3 and JavaScript** for The Johannesburg Dream Centre.
 
-**Last documentation update:** 1 November 2026  
+**Last documentation update:** 2 November 2026  
 **Project stage:** Parts 1, 2 and subsequent interactive website updates  
 **Status:** Static website with interactive search, catalogue, cart, gallery and externally connected forms. This is not a complete payment or order-management system.
 
